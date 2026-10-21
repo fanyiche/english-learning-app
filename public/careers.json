@@ -1,0 +1,682 @@
+[
+  {
+    "id": "student",
+    "name": "学生",
+    "english": "STUDY & CAMPUS",
+    "subtitle": "课堂、考试与校园生活",
+    "icon": "▤",
+    "symbol": "graduationcap.fill",
+    "words": [
+      {
+        "id": "student-w0",
+        "term": "assignment",
+        "meaning": "作业；任务",
+        "example": "When is the assignment due?",
+        "translation": "作业什么时候交？"
+      },
+      {
+        "id": "student-w1",
+        "term": "deadline",
+        "meaning": "截止日期",
+        "example": "The deadline is Friday.",
+        "translation": "截止日期是周五。"
+      },
+      {
+        "id": "student-w2",
+        "term": "lecture",
+        "meaning": "讲座；授课",
+        "example": "The lecture starts at nine.",
+        "translation": "这节课九点开始。"
+      },
+      {
+        "id": "student-w3",
+        "term": "revise",
+        "meaning": "复习；修订",
+        "example": "I need to revise for the exam.",
+        "translation": "我需要复习备考。"
+      },
+      {
+        "id": "student-w4",
+        "term": "semester",
+        "meaning": "学期",
+        "example": "The new semester begins in September.",
+        "translation": "新学期九月开始。"
+      },
+      {
+        "id": "student-w5",
+        "term": "attendance",
+        "meaning": "出勤",
+        "example": "Attendance is required.",
+        "translation": "必须出席。"
+      },
+      {
+        "id": "student-w6",
+        "term": "scholarship",
+        "meaning": "奖学金",
+        "example": "She applied for a scholarship.",
+        "translation": "她申请了奖学金。"
+      },
+      {
+        "id": "student-w7",
+        "term": "reference",
+        "meaning": "参考资料",
+        "example": "Please include your references.",
+        "translation": "请列出你的参考资料。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "student-g0",
+        "title": "礼貌地向老师提问",
+        "pattern": "Could you + 动词原形…?",
+        "explanation": "用 Could you 提出礼貌请求，后接动词原形。",
+        "example": "Could you explain this word?",
+        "translation": "您能解释这个单词吗？",
+        "prompt": "选择向老师请教的正确表达",
+        "options": [
+          "Could you explain this?",
+          "Could you explains this?",
+          "Could you explaining this?"
+        ],
+        "answer": "Could you explain this?"
+      },
+      {
+        "id": "student-g1",
+        "title": "表达学习计划",
+        "pattern": "be going to + 动词原形",
+        "explanation": "表达已经做出的计划，be 随主语变化。",
+        "example": "I am going to revise tonight.",
+        "translation": "我打算今晚复习。",
+        "prompt": "补充计划：She ___ going to study tonight.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": "is"
+      },
+      {
+        "id": "student-g2",
+        "title": "描述课程安排",
+        "pattern": "一般现在时 + 时间表达",
+        "explanation": "按时间表发生的事件通常用一般现在时；第三人称单数动词加 s。",
+        "example": "The class starts at ten.",
+        "translation": "课程十点开始。",
+        "prompt": "选择正确的课程安排表达",
+        "options": [
+          "The class start at ten.",
+          "The class starts at ten.",
+          "The class starting at ten."
+        ],
+        "answer": "The class starts at ten."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Student",
+        "english": "Could you explain this question?",
+        "translation": "您能解释一下这道题吗？"
+      },
+      {
+        "speaker": "Teacher",
+        "english": "Of course. Which part is difficult?",
+        "translation": "当然。哪一部分有困难？"
+      },
+      {
+        "speaker": "Student",
+        "english": "I do not understand the last sentence.",
+        "translation": "我不理解最后一句。"
+      },
+      {
+        "speaker": "Teacher",
+        "english": "Let us look at it together.",
+        "translation": "我们一起来看看。"
+      }
+    ]
+  },
+  {
+    "id": "lawyer",
+    "name": "律师",
+    "english": "LEGAL ENGLISH",
+    "subtitle": "客户沟通、合同与法律表达",
+    "icon": "⚖",
+    "symbol": "scalemass.fill",
+    "words": [
+      {
+        "id": "lawyer-w0",
+        "term": "contract",
+        "meaning": "合同",
+        "example": "Please review the contract.",
+        "translation": "请审阅合同。"
+      },
+      {
+        "id": "lawyer-w1",
+        "term": "clause",
+        "meaning": "条款",
+        "example": "This clause describes the payment terms.",
+        "translation": "本条款说明付款条件。"
+      },
+      {
+        "id": "lawyer-w2",
+        "term": "liability",
+        "meaning": "法律责任",
+        "example": "The agreement limits our liability.",
+        "translation": "该协议限制我方责任。"
+      },
+      {
+        "id": "lawyer-w3",
+        "term": "evidence",
+        "meaning": "证据",
+        "example": "We need more evidence.",
+        "translation": "我们需要更多证据。"
+      },
+      {
+        "id": "lawyer-w4",
+        "term": "claim",
+        "meaning": "索赔；主张",
+        "example": "The client filed a claim.",
+        "translation": "客户提出了索赔。"
+      },
+      {
+        "id": "lawyer-w5",
+        "term": "settlement",
+        "meaning": "和解",
+        "example": "They reached a settlement.",
+        "translation": "他们达成了和解。"
+      },
+      {
+        "id": "lawyer-w6",
+        "term": "confidential",
+        "meaning": "保密的",
+        "example": "This information is confidential.",
+        "translation": "此信息属于保密内容。"
+      },
+      {
+        "id": "lawyer-w7",
+        "term": "consent",
+        "meaning": "同意",
+        "example": "We need your written consent.",
+        "translation": "我们需要您的书面同意。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "lawyer-g0",
+        "title": "表达合同义务",
+        "pattern": "must + 动词原形",
+        "explanation": "must 用于表达义务；这里用于英语学习，具体法律效力取决于司法管辖区与合同。",
+        "example": "The tenant must pay the rent on time.",
+        "translation": "租户必须按时支付租金。",
+        "prompt": "选择表达义务的正确句子",
+        "options": [
+          "The tenant must pays rent.",
+          "The tenant must pay rent.",
+          "The tenant must paying rent."
+        ],
+        "answer": "The tenant must pay rent."
+      },
+      {
+        "id": "lawyer-g1",
+        "title": "描述文件处理",
+        "pattern": "be + 过去分词（被动语态）",
+        "explanation": "被动语态强调文件受到的处理，be 与主语和时态一致。",
+        "example": "The agreement was signed yesterday.",
+        "translation": "协议已于昨日签署。",
+        "prompt": "选择正确的被动语态",
+        "options": [
+          "The agreement was signed.",
+          "The agreement was sign.",
+          "The agreement is signing yesterday."
+        ],
+        "answer": "The agreement was signed."
+      },
+      {
+        "id": "lawyer-g2",
+        "title": "说明条件与后果",
+        "pattern": "If + 一般现在时, will + 动词原形",
+        "explanation": "第一条件句用于说明可能发生的条件及后果。",
+        "example": "If you agree, we will prepare the documents.",
+        "translation": "如果您同意，我们将准备文件。",
+        "prompt": "选择正确的条件句",
+        "options": [
+          "If you agree, we will prepare the documents.",
+          "If you will agree, we prepares the documents.",
+          "If you agrees, we prepare yesterday."
+        ],
+        "answer": "If you agree, we will prepare the documents."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lawyer",
+        "english": "Could you describe what happened?",
+        "translation": "您能描述一下发生了什么吗？"
+      },
+      {
+        "speaker": "Client",
+        "english": "I have a question about this contract.",
+        "translation": "我对这份合同有一个疑问。"
+      },
+      {
+        "speaker": "Lawyer",
+        "english": "Let us review the payment clause first.",
+        "translation": "我们先审阅付款条款。"
+      },
+      {
+        "speaker": "Client",
+        "english": "Thank you. Is this information confidential?",
+        "translation": "谢谢。这些信息会保密吗？"
+      }
+    ]
+  },
+  {
+    "id": "restaurant",
+    "name": "餐馆从业者",
+    "english": "RESTAURANT & SERVICE",
+    "subtitle": "迎宾、点单、过敏与结账",
+    "icon": "♧",
+    "symbol": "fork.knife",
+    "words": [
+      {
+        "id": "restaurant-w0",
+        "term": "reservation",
+        "meaning": "预订",
+        "example": "Do you have a reservation?",
+        "translation": "您有预订吗？"
+      },
+      {
+        "id": "restaurant-w1",
+        "term": "menu",
+        "meaning": "菜单",
+        "example": "Here is the menu.",
+        "translation": "这是菜单。"
+      },
+      {
+        "id": "restaurant-w2",
+        "term": "allergy",
+        "meaning": "过敏",
+        "example": "Do you have any food allergies?",
+        "translation": "您有任何食物过敏吗？"
+      },
+      {
+        "id": "restaurant-w3",
+        "term": "ingredient",
+        "meaning": "食材；成分",
+        "example": "Let me check the ingredients.",
+        "translation": "让我核对一下食材。"
+      },
+      {
+        "id": "restaurant-w4",
+        "term": "recommend",
+        "meaning": "推荐",
+        "example": "I recommend the vegetable soup.",
+        "translation": "我推荐蔬菜汤。"
+      },
+      {
+        "id": "restaurant-w5",
+        "term": "bill",
+        "meaning": "账单",
+        "example": "Would you like the bill?",
+        "translation": "您需要账单吗？"
+      },
+      {
+        "id": "restaurant-w6",
+        "term": "takeaway",
+        "meaning": "外带",
+        "example": "Is this for takeaway?",
+        "translation": "这是要外带吗？"
+      },
+      {
+        "id": "restaurant-w7",
+        "term": "available",
+        "meaning": "有供应的；可用的",
+        "example": "A table is available now.",
+        "translation": "现在有空桌了。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "restaurant-g0",
+        "title": "礼貌接单",
+        "pattern": "Would you like + 名词 / to do…?",
+        "explanation": "询问客人意愿时使用 Would you like；动词前加 to。",
+        "example": "Would you like some water?",
+        "translation": "您需要一些水吗？",
+        "prompt": "选择礼貌询问客人意愿的句子",
+        "options": [
+          "Would you like some water?",
+          "Would you likes some water?",
+          "Would you liking water?"
+        ],
+        "answer": "Would you like some water?"
+      },
+      {
+        "id": "restaurant-g1",
+        "title": "确认食物过敏",
+        "pattern": "Do you have any + 复数名词…?",
+        "explanation": "一般疑问句中常用 any，allergy 的复数为 allergies。过敏信息应实际核对，不能猜测。",
+        "example": "Do you have any food allergies?",
+        "translation": "您有任何食物过敏吗？",
+        "prompt": "选择正确的过敏询问",
+        "options": [
+          "Does you have any allergies?",
+          "Do you has any allergies?",
+          "Do you have any allergies?"
+        ],
+        "answer": "Do you have any allergies?"
+      },
+      {
+        "id": "restaurant-g2",
+        "title": "致歉并说明等待",
+        "pattern": "I am sorry, but… / will + 动词原形",
+        "explanation": "先致歉，再用 will 说明接下来将发生的事情。",
+        "example": "I am sorry, but your order will take ten minutes.",
+        "translation": "很抱歉，您的餐点还需要十分钟。",
+        "prompt": "选择正确的等待说明",
+        "options": [
+          "Your order will takes ten minutes.",
+          "Your order will take ten minutes.",
+          "Your order will taking ten minutes."
+        ],
+        "answer": "Your order will take ten minutes."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Server",
+        "english": "Welcome! Do you have a reservation?",
+        "translation": "欢迎光临！您有预订吗？"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, a table for two under Chen.",
+        "translation": "有，两位，姓陈。"
+      },
+      {
+        "speaker": "Server",
+        "english": "This way, please. Do you have any food allergies?",
+        "translation": "这边请。您有任何食物过敏吗？"
+      },
+      {
+        "speaker": "Guest",
+        "english": "Yes, I am allergic to peanuts.",
+        "translation": "有，我对花生过敏。"
+      },
+      {
+        "speaker": "Server",
+        "english": "Thank you for telling me. I will check with the kitchen.",
+        "translation": "谢谢告知。我会和厨房核对。"
+      }
+    ]
+  },
+  {
+    "id": "healthcare",
+    "name": "医护人员",
+    "english": "HEALTHCARE ENGLISH",
+    "subtitle": "接待、症状询问与日常照护",
+    "icon": "✚",
+    "symbol": "cross.case.fill",
+    "words": [
+      {
+        "id": "healthcare-w0",
+        "term": "symptom",
+        "meaning": "症状",
+        "example": "What symptoms do you have?",
+        "translation": "您有什么症状？"
+      },
+      {
+        "id": "healthcare-w1",
+        "term": "appointment",
+        "meaning": "预约",
+        "example": "Do you have an appointment?",
+        "translation": "您有预约吗？"
+      },
+      {
+        "id": "healthcare-w2",
+        "term": "prescription",
+        "meaning": "处方",
+        "example": "Please bring your prescription.",
+        "translation": "请带上您的处方。"
+      },
+      {
+        "id": "healthcare-w3",
+        "term": "temperature",
+        "meaning": "体温；温度",
+        "example": "I will take your temperature.",
+        "translation": "我将为您测量体温。"
+      },
+      {
+        "id": "healthcare-w4",
+        "term": "dizzy",
+        "meaning": "头晕的",
+        "example": "Do you feel dizzy?",
+        "translation": "您感到头晕吗？"
+      },
+      {
+        "id": "healthcare-w5",
+        "term": "allergic",
+        "meaning": "过敏的",
+        "example": "Are you allergic to any medicines?",
+        "translation": "您对任何药物过敏吗？"
+      },
+      {
+        "id": "healthcare-w6",
+        "term": "medical history",
+        "meaning": "病史",
+        "example": "Could you tell me about your medical history?",
+        "translation": "您能告诉我您的病史吗？"
+      },
+      {
+        "id": "healthcare-w7",
+        "term": "follow-up",
+        "meaning": "复诊；随访",
+        "example": "Please book a follow-up appointment.",
+        "translation": "请预约复诊。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "healthcare-g0",
+        "title": "询问持续时间",
+        "pattern": "How long have you + 过去分词…?",
+        "explanation": "现在完成时询问从过去持续到现在的情况。这里只练习语言，不进行诊断。",
+        "example": "How long have you felt this way?",
+        "translation": "您这样感觉有多久了？",
+        "prompt": "选择正确的持续时间问法",
+        "options": [
+          "How long have you felt this way?",
+          "How long has you feel this way?",
+          "How long have you feel this way?"
+        ],
+        "answer": "How long have you felt this way?"
+      },
+      {
+        "id": "healthcare-g1",
+        "title": "给出简单操作指引",
+        "pattern": "Please + 动词原形",
+        "explanation": "用 please 使指引更礼貌；此处仅为语言示例，实际操作遵循临床规范。",
+        "example": "Please sit down and relax.",
+        "translation": "请坐下并放松。",
+        "prompt": "选择正确的指引",
+        "options": [
+          "Please sits down.",
+          "Please sitting down.",
+          "Please sit down."
+        ],
+        "answer": "Please sit down."
+      },
+      {
+        "id": "healthcare-g2",
+        "title": "询问正在发生的感受",
+        "pattern": "Are you feeling + 形容词…?",
+        "explanation": "现在进行时可询问当下的身体感受。",
+        "example": "Are you feeling better now?",
+        "translation": "您现在感觉好些了吗？",
+        "prompt": "选择询问当前感受的正确表达",
+        "options": [
+          "Are you feeling better?",
+          "Is you feeling better?",
+          "Are you feel better?"
+        ],
+        "answer": "Are you feeling better?"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Nurse",
+        "english": "Hello. Do you have an appointment?",
+        "translation": "您好。您有预约吗？"
+      },
+      {
+        "speaker": "Patient",
+        "english": "Yes. I have been feeling dizzy.",
+        "translation": "有。我一直感到头晕。"
+      },
+      {
+        "speaker": "Nurse",
+        "english": "How long have you felt this way?",
+        "translation": "您这样感觉有多久了？"
+      },
+      {
+        "speaker": "Patient",
+        "english": "Since this morning.",
+        "translation": "从今天早上开始。"
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "name": "商务办公",
+    "english": "BUSINESS & OFFICE",
+    "subtitle": "邮件、会议、项目与协作",
+    "icon": "▣",
+    "symbol": "briefcase.fill",
+    "words": [
+      {
+        "id": "business-w0",
+        "term": "agenda",
+        "meaning": "议程",
+        "example": "Let us look at the agenda.",
+        "translation": "我们来看看议程。"
+      },
+      {
+        "id": "business-w1",
+        "term": "proposal",
+        "meaning": "提案；方案",
+        "example": "I will send you the proposal.",
+        "translation": "我会将方案发给您。"
+      },
+      {
+        "id": "business-w2",
+        "term": "budget",
+        "meaning": "预算",
+        "example": "The project is within budget.",
+        "translation": "项目在预算范围内。"
+      },
+      {
+        "id": "business-w3",
+        "term": "schedule",
+        "meaning": "日程；安排",
+        "example": "Could we change the schedule?",
+        "translation": "我们能调整日程吗？"
+      },
+      {
+        "id": "business-w4",
+        "term": "feedback",
+        "meaning": "反馈",
+        "example": "Thank you for your feedback.",
+        "translation": "感谢您的反馈。"
+      },
+      {
+        "id": "business-w5",
+        "term": "colleague",
+        "meaning": "同事",
+        "example": "She is my colleague.",
+        "translation": "她是我的同事。"
+      },
+      {
+        "id": "business-w6",
+        "term": "confirm",
+        "meaning": "确认",
+        "example": "Please confirm the meeting time.",
+        "translation": "请确认会议时间。"
+      },
+      {
+        "id": "business-w7",
+        "term": "attachment",
+        "meaning": "附件",
+        "example": "Please see the attachment.",
+        "translation": "请查看附件。"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "business-g0",
+        "title": "礼貌提出会议建议",
+        "pattern": "Could we + 动词原形…?",
+        "explanation": "使用 Could we 提出共同参与的建议或请求。",
+        "example": "Could we meet on Thursday?",
+        "translation": "我们周四能开会吗？",
+        "prompt": "选择正确的会议请求",
+        "options": [
+          "Could we meets on Thursday?",
+          "Could we meet on Thursday?",
+          "Could we meeting on Thursday?"
+        ],
+        "answer": "Could we meet on Thursday?"
+      },
+      {
+        "id": "business-g1",
+        "title": "汇报已经完成的工作",
+        "pattern": "have / has + 过去分词",
+        "explanation": "现在完成时强调过去的动作与当前结果的联系。",
+        "example": "We have finished the report.",
+        "translation": "我们已经完成了报告。",
+        "prompt": "选择正确的进度汇报",
+        "options": [
+          "We has finished the report.",
+          "We have finish the report.",
+          "We have finished the report."
+        ],
+        "answer": "We have finished the report."
+      },
+      {
+        "id": "business-g2",
+        "title": "邮件中的礼貌请求",
+        "pattern": "Would you mind + 动名词…?",
+        "explanation": "mind 后接动名词，即动词的 -ing 形式。",
+        "example": "Would you mind sending the file?",
+        "translation": "您介意把文件发过来吗？",
+        "prompt": "选择正确的邮件请求",
+        "options": [
+          "Would you mind sending the file?",
+          "Would you mind send the file?",
+          "Would you mind to send the file?"
+        ],
+        "answer": "Would you mind sending the file?"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Colleague",
+        "english": "Could we discuss the proposal today?",
+        "translation": "我们今天能讨论一下方案吗？"
+      },
+      {
+        "speaker": "You",
+        "english": "Of course. What time works for you?",
+        "translation": "当然。您什么时间方便？"
+      },
+      {
+        "speaker": "Colleague",
+        "english": "How about three in the afternoon?",
+        "translation": "下午三点怎么样？"
+      },
+      {
+        "speaker": "You",
+        "english": "That works for me. I will send an invitation.",
+        "translation": "我可以。我会发一个邀请。"
+      }
+    ]
+  }
+]

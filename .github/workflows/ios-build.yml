@@ -1,0 +1,115 @@
+name: iOS cloud build check
+
+on:
+  push:
+    branches: ['codex/iphone-app']
+    paths:
+      - 'ios/**'
+      - 'public/careers.json'
+      - 'scripts/package-ios-unsigned.py'
+      - 'test/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/ios-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  simulator-build:
+    name: Build native iPhone app (simulator, unsigned)
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Node for shared course tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Validate courses and learning logic
+        run: |
+          npm ci --ignore-scripts
+          npm test
+      - name: Show selected Xcode
+        run: xcodebuild -version
+      - name: Compile native app
+        run: |
+          xcodebuild \
+            -project ios/LingoGarden.xcodeproj \
+            -scheme LingoGarden \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/LingoGardenDerivedData" \
+            -resultBundlePath "$RUNNER_TEMP/LingoGarden-Build.xcresult" \
+            CODE_SIGNING_ALLOWED=NO build
+      - name: Package simulator app
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent \
+            "$RUNNER_TEMP/LingoGardenDerivedData/Build/Products/Debug-iphonesimulator/LingoGarden.app" \
+            "$RUNNER_TEMP/LingoGarden-simulator.zip"
+      - name: Upload simulator build
+        uses: actions/upload-artifact@v4
+        with:
+          name: LingoGarden-simulator-not-for-iPhone-install
+          path: ${{ runner.temp }}/LingoGarden-simulator.zip
+          retention-days: 7
+          if-no-files-found: error
+      - name: Upload Xcode build diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: LingoGarden-build-diagnostics
+          path: ${{ runner.temp }}/LingoGarden-Build.xcresult
+          retention-days: 7
+          if-no-files-found: ignore
+
+  unsigned-device-build:
+    name: Build device IPA for personal re-signing
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Show selected Xcode
+        run: xcodebuild -version
+      - name: Verify IPA packager
+        run: python3 -m unittest discover -s test -p 'test_*.py'
+      - name: Compile device app without distribution signing
+        run: |
+          xcodebuild \
+            -project ios/LingoGarden.xcodeproj \
+            -scheme LingoGarden \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$RUNNER_TEMP/LingoGardenDeviceDerivedData" \
+            -resultBundlePath "$RUNNER_TEMP/LingoGarden-Device-Build.xcresult" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY='' build
+      - name: Package unsigned device IPA
+        run: |
+          python3 scripts/package-ios-unsigned.py \
+            "$RUNNER_TEMP/LingoGardenDeviceDerivedData/Build/Products/Release-iphoneos/LingoGarden.app" \
+            "$RUNNER_TEMP/LingoGarden-unsigned.ipa"
+      - name: Upload IPA for personal re-signing
+        uses: actions/upload-artifact@v4
+        with:
+          name: LingoGarden-device-IPA-needs-personal-signing
+          path: ${{ runner.temp }}/LingoGarden-unsigned.ipa
+          retention-days: 7
+          if-no-files-found: error
+      - name: Upload device build diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: LingoGarden-device-build-diagnostics
+          path: ${{ runner.temp }}/LingoGarden-Device-Build.xcresult
+          retention-days: 7
+          if-no-files-found: ignore
