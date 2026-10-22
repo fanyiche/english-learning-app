@@ -132,6 +132,536 @@
         "english": "Let us look at it together.",
         "translation": "我们一起来看看。"
       }
+    ],
+    "units": [
+      {
+        "id": "student-u2",
+        "title": "考试与作业",
+        "level": "A2",
+        "words": [
+          {
+            "id": "student-u2-w0",
+            "term": "quiz",
+            "meaning": "小测验",
+            "example": "We have a short quiz every Monday.",
+            "translation": "我们每周一有个小测验。"
+          },
+          {
+            "id": "student-u2-w1",
+            "term": "grade",
+            "meaning": "成绩；分数",
+            "example": "She got a good grade in history.",
+            "translation": "她历史考得很好。"
+          },
+          {
+            "id": "student-u2-w2",
+            "term": "essay",
+            "meaning": "论文；短文",
+            "example": "I have to finish my essay tonight.",
+            "translation": "我今晚得写完论文。"
+          },
+          {
+            "id": "student-u2-w3",
+            "term": "plagiarism",
+            "meaning": "抄袭",
+            "example": "Plagiarism can lead to a failing grade.",
+            "translation": "抄袭可能导致不及格。"
+          },
+          {
+            "id": "student-u2-w4",
+            "term": "extension",
+            "meaning": "延期",
+            "example": "Can I ask for an extension on the deadline?",
+            "translation": "我能申请截止日期延期吗？"
+          },
+          {
+            "id": "student-u2-w5",
+            "term": "tutor",
+            "meaning": "辅导老师",
+            "example": "My tutor helps me with maths.",
+            "translation": "我的辅导老师帮我学数学。"
+          },
+          {
+            "id": "student-u2-w6",
+            "term": "presentation",
+            "meaning": "课堂展示；演讲",
+            "example": "Our group presentation is on Thursday.",
+            "translation": "我们小组周四做展示。"
+          },
+          {
+            "id": "student-u2-w7",
+            "term": "draft",
+            "meaning": "草稿",
+            "example": "Please send me your first draft.",
+            "translation": "请把你的初稿发给我。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "student-u2-g0",
+            "title": "询问能否做某事",
+            "pattern": "Can I + 动词原形…?",
+            "explanation": "Can I 用来请求许可，后面接动词原形。",
+            "example": "Can I hand in my essay tomorrow?",
+            "translation": "我可以明天交论文吗？",
+            "prompt": "选择正确的请求",
+            "options": [
+              "Can I submitting it later?",
+              "Can I submit it later?",
+              "Can I to submit it later?"
+            ],
+            "answer": "Can I submit it later?"
+          },
+          {
+            "id": "student-u2-g1",
+            "title": "已经完成的事",
+            "pattern": "have / has + 过去分词",
+            "explanation": "现在完成时表示到现在为止已经完成的事。",
+            "example": "I have finished my draft.",
+            "translation": "我已经写完初稿了。",
+            "prompt": "补全：She ___ finished her essay.",
+            "options": [
+              "have",
+              "has",
+              "is"
+            ],
+            "answer": "has"
+          },
+          {
+            "id": "student-u2-g2",
+            "title": "必须做的事",
+            "pattern": "have to + 动词原形",
+            "explanation": "have to 表示客观上必须做的事，主语是第三人称单数时用 has to。",
+            "example": "He has to study for the quiz.",
+            "translation": "他得为小测验复习。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "He have to study tonight.",
+              "He has to studies tonight.",
+              "He has to study tonight."
+            ],
+            "answer": "He has to study tonight."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Student",
+            "english": "Excuse me, can I ask for an extension on my essay?",
+            "translation": "打扰一下，我的论文可以延期吗？"
+          },
+          {
+            "speaker": "Tutor",
+            "english": "Why do you need more time?",
+            "translation": "你为什么需要更多时间？"
+          },
+          {
+            "speaker": "Student",
+            "english": "I was sick last week, and I have only finished the first draft.",
+            "translation": "我上周生病了，只写完了初稿。"
+          },
+          {
+            "speaker": "Tutor",
+            "english": "All right. Please send it to me by Friday.",
+            "translation": "好的，请在周五前发给我。"
+          }
+        ]
+      },
+      {
+        "id": "student-u3",
+        "title": "校园生活",
+        "level": "A2",
+        "words": [
+          {
+            "id": "student-u3-w0",
+            "term": "dormitory",
+            "meaning": "宿舍",
+            "example": "I live in a dormitory on campus.",
+            "translation": "我住在校内的宿舍。"
+          },
+          {
+            "id": "student-u3-w1",
+            "term": "roommate",
+            "meaning": "室友",
+            "example": "My roommate is from Canada.",
+            "translation": "我的室友来自加拿大。"
+          },
+          {
+            "id": "student-u3-w2",
+            "term": "library",
+            "meaning": "图书馆",
+            "example": "The library closes at ten.",
+            "translation": "图书馆十点关门。"
+          },
+          {
+            "id": "student-u3-w3",
+            "term": "canteen",
+            "meaning": "食堂",
+            "example": "Let's have lunch in the canteen.",
+            "translation": "我们去食堂吃午饭吧。"
+          },
+          {
+            "id": "student-u3-w4",
+            "term": "club",
+            "meaning": "社团",
+            "example": "I joined the photography club.",
+            "translation": "我加入了摄影社。"
+          },
+          {
+            "id": "student-u3-w5",
+            "term": "timetable",
+            "meaning": "课程表",
+            "example": "Check your timetable for room changes.",
+            "translation": "查看课程表看看教室有没有变。"
+          },
+          {
+            "id": "student-u3-w6",
+            "term": "campus",
+            "meaning": "校园",
+            "example": "The campus is very big.",
+            "translation": "校园很大。"
+          },
+          {
+            "id": "student-u3-w7",
+            "term": "register",
+            "meaning": "注册；报名",
+            "example": "You need to register for the course online.",
+            "translation": "你需要在网上报名这门课。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "student-u3-g0",
+            "title": "描述地点里有什么",
+            "pattern": "There is / There are…",
+            "explanation": "单数或不可数名词用 there is，复数用 there are。",
+            "example": "There are two canteens on campus.",
+            "translation": "校园里有两个食堂。",
+            "prompt": "补全：There ___ many clubs at our school.",
+            "options": [
+              "is",
+              "are",
+              "be"
+            ],
+            "answer": "are"
+          },
+          {
+            "id": "student-u3-g1",
+            "title": "邀请别人一起做",
+            "pattern": "Let's + 动词原形",
+            "explanation": "Let's 用来提出一起做某事的建议。",
+            "example": "Let's study in the library.",
+            "translation": "我们去图书馆学习吧。",
+            "prompt": "选择正确的建议",
+            "options": [
+              "Let's going to the club.",
+              "Let's go to the club.",
+              "Let's to go to the club."
+            ],
+            "answer": "Let's go to the club."
+          },
+          {
+            "id": "student-u3-g2",
+            "title": "表示频率",
+            "pattern": "always / usually / sometimes + 动词",
+            "explanation": "频率副词放在实义动词前、be 动词后。",
+            "example": "I usually eat in the canteen.",
+            "translation": "我通常在食堂吃饭。",
+            "prompt": "选择语序正确的句子",
+            "options": [
+              "I go usually to the library.",
+              "Usually I go the library to.",
+              "I usually go to the library."
+            ],
+            "answer": "I usually go to the library."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Student A",
+            "english": "Hi, are you my new roommate?",
+            "translation": "嗨，你是我的新室友吗？"
+          },
+          {
+            "speaker": "Student B",
+            "english": "Yes! I just moved into the dormitory today.",
+            "translation": "是的！我今天刚搬进宿舍。"
+          },
+          {
+            "speaker": "Student A",
+            "english": "Have you registered for your courses yet?",
+            "translation": "你选好课了吗？"
+          },
+          {
+            "speaker": "Student B",
+            "english": "Not yet. Let's check the timetable together.",
+            "translation": "还没有。我们一起看看课程表吧。"
+          }
+        ]
+      },
+      {
+        "id": "student-u4",
+        "title": "学术写作",
+        "level": "B1",
+        "words": [
+          {
+            "id": "student-u4-w0",
+            "term": "thesis",
+            "meaning": "毕业论文；论点",
+            "example": "Her thesis is about online learning.",
+            "translation": "她的论文是关于在线学习的。"
+          },
+          {
+            "id": "student-u4-w1",
+            "term": "argument",
+            "meaning": "论点；论证",
+            "example": "Your argument needs more support.",
+            "translation": "你的论点需要更多支撑。"
+          },
+          {
+            "id": "student-u4-w2",
+            "term": "source",
+            "meaning": "资料来源",
+            "example": "Use at least five reliable sources.",
+            "translation": "至少使用五个可靠的资料来源。"
+          },
+          {
+            "id": "student-u4-w3",
+            "term": "cite",
+            "meaning": "引用（并注明出处）",
+            "example": "Always cite the author and the year.",
+            "translation": "一定要注明作者和年份。"
+          },
+          {
+            "id": "student-u4-w4",
+            "term": "summary",
+            "meaning": "摘要；总结",
+            "example": "Write a short summary of the article.",
+            "translation": "写一段文章的简短摘要。"
+          },
+          {
+            "id": "student-u4-w5",
+            "term": "paragraph",
+            "meaning": "段落",
+            "example": "Each paragraph should have one main idea.",
+            "translation": "每个段落应该只有一个中心思想。"
+          },
+          {
+            "id": "student-u4-w6",
+            "term": "conclusion",
+            "meaning": "结论",
+            "example": "The conclusion repeats the main points.",
+            "translation": "结论重申了要点。"
+          },
+          {
+            "id": "student-u4-w7",
+            "term": "introduction",
+            "meaning": "引言；开头",
+            "example": "A good introduction gets attention.",
+            "translation": "好的开头能吸引注意。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "student-u4-g0",
+            "title": "表达观点",
+            "pattern": "I believe / I think + 句子",
+            "explanation": "用 I believe 引出自己的观点，比 I think 更正式。",
+            "example": "I believe online classes are useful.",
+            "translation": "我认为网课很有用。",
+            "prompt": "选择最正式的表达观点",
+            "options": [
+              "I believe this is true.",
+              "I want this is true.",
+              "I am believe this is true."
+            ],
+            "answer": "I believe this is true."
+          },
+          {
+            "id": "student-u4-g1",
+            "title": "被动语态描述研究",
+            "pattern": "It is + 过去分词 + that…",
+            "explanation": "学术写作常用被动语态让表达更客观。",
+            "example": "It is known that sleep helps memory.",
+            "translation": "众所周知，睡眠有助于记忆。",
+            "prompt": "选择正确的学术表达",
+            "options": [
+              "It knows that exercise helps.",
+              "It is known that exercise helps.",
+              "It is know that exercise helps."
+            ],
+            "answer": "It is known that exercise helps."
+          },
+          {
+            "id": "student-u4-g2",
+            "title": "转折",
+            "pattern": "However, …",
+            "explanation": "However 表示转折，通常放在句首并加逗号。",
+            "example": "The method is cheap. However, it is slow.",
+            "translation": "这种方法很便宜，但是很慢。",
+            "prompt": "选择正确的转折句",
+            "options": [
+              "The data is useful, however it is old.",
+              "The data is useful. However, it is old.",
+              "The data is useful. However it, is old."
+            ],
+            "answer": "The data is useful. However, it is old."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Tutor",
+            "english": "Your argument is interesting, but your sources are weak.",
+            "translation": "你的论点很有意思，但资料来源不够有力。"
+          },
+          {
+            "speaker": "Student",
+            "english": "Should I add more recent studies?",
+            "translation": "我应该加一些更新的研究吗？"
+          },
+          {
+            "speaker": "Tutor",
+            "english": "Yes, and remember to cite every source.",
+            "translation": "对，记得每个来源都要注明出处。"
+          },
+          {
+            "speaker": "Student",
+            "english": "Got it. I will also rewrite the conclusion.",
+            "translation": "明白了，我也会重写结论。"
+          }
+        ]
+      },
+      {
+        "id": "student-u5",
+        "title": "实习与升学",
+        "level": "B1",
+        "words": [
+          {
+            "id": "student-u5-w0",
+            "term": "internship",
+            "meaning": "实习",
+            "example": "I am applying for a summer internship.",
+            "translation": "我在申请暑期实习。"
+          },
+          {
+            "id": "student-u5-w1",
+            "term": "application",
+            "meaning": "申请",
+            "example": "The application form is online.",
+            "translation": "申请表在网上。"
+          },
+          {
+            "id": "student-u5-w2",
+            "term": "interview",
+            "meaning": "面试",
+            "example": "I have an interview on Tuesday.",
+            "translation": "我周二有个面试。"
+          },
+          {
+            "id": "student-u5-w3",
+            "term": "degree",
+            "meaning": "学位",
+            "example": "She has a degree in economics.",
+            "translation": "她有经济学学位。"
+          },
+          {
+            "id": "student-u5-w4",
+            "term": "major",
+            "meaning": "专业",
+            "example": "What is your major?",
+            "translation": "你的专业是什么？"
+          },
+          {
+            "id": "student-u5-w5",
+            "term": "graduate",
+            "meaning": "毕业",
+            "example": "I will graduate next June.",
+            "translation": "我明年六月毕业。"
+          },
+          {
+            "id": "student-u5-w6",
+            "term": "certificate",
+            "meaning": "证书",
+            "example": "You will get a certificate after the course.",
+            "translation": "课程结束后你会拿到证书。"
+          },
+          {
+            "id": "student-u5-w7",
+            "term": "volunteer",
+            "meaning": "志愿者；做志愿者",
+            "example": "I volunteer at the library on weekends.",
+            "translation": "我周末在图书馆做志愿者。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "student-u5-g0",
+            "title": "表达将来的安排",
+            "pattern": "will + 动词原形",
+            "explanation": "will 表示将来会发生的事或临时决定。",
+            "example": "I will graduate next year.",
+            "translation": "我明年毕业。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "I will graduating soon.",
+              "I will graduate soon.",
+              "I will to graduate soon."
+            ],
+            "answer": "I will graduate soon."
+          },
+          {
+            "id": "student-u5-g1",
+            "title": "表达兴趣",
+            "pattern": "be interested in + 名词 / 动名词",
+            "explanation": "interested in 后接名词或 -ing 形式。",
+            "example": "I am interested in working abroad.",
+            "translation": "我对出国工作感兴趣。",
+            "prompt": "补全：I am interested ___ marketing.",
+            "options": [
+              "on",
+              "at",
+              "in"
+            ],
+            "answer": "in"
+          },
+          {
+            "id": "student-u5-g2",
+            "title": "介绍经历",
+            "pattern": "I have + 过去分词 + since / for…",
+            "explanation": "现在完成时说明从过去持续到现在的经历。",
+            "example": "I have volunteered here for two years.",
+            "translation": "我在这里做志愿者两年了。",
+            "prompt": "选择正确的经历描述",
+            "options": [
+              "I have studied English for five years.",
+              "I study English since five years.",
+              "I have study English for five years."
+            ],
+            "answer": "I have studied English for five years."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Interviewer",
+            "english": "Tell me about yourself.",
+            "translation": "介绍一下你自己。"
+          },
+          {
+            "speaker": "Student",
+            "english": "I am a final-year student. My major is marketing.",
+            "translation": "我是大四学生，专业是市场营销。"
+          },
+          {
+            "speaker": "Interviewer",
+            "english": "Why are you interested in this internship?",
+            "translation": "你为什么对这份实习感兴趣？"
+          },
+          {
+            "speaker": "Student",
+            "english": "I want to use what I have learned in a real company.",
+            "translation": "我想在真正的公司里运用所学。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -248,14 +778,14 @@
     ],
     "dialogue": [
       {
-        "speaker": "Lawyer",
-        "english": "Could you describe what happened?",
-        "translation": "您能描述一下发生了什么吗？"
-      },
-      {
         "speaker": "Client",
         "english": "I have a question about this contract.",
         "translation": "我对这份合同有一个疑问。"
+      },
+      {
+        "speaker": "Lawyer",
+        "english": "Could you describe what happened?",
+        "translation": "您能描述一下发生了什么吗？"
       },
       {
         "speaker": "Lawyer",
@@ -266,6 +796,536 @@
         "speaker": "Client",
         "english": "Thank you. Is this information confidential?",
         "translation": "谢谢。这些信息会保密吗？"
+      }
+    ],
+    "units": [
+      {
+        "id": "lawyer-u2",
+        "title": "咨询与面谈",
+        "level": "A2",
+        "words": [
+          {
+            "id": "lawyer-u2-w0",
+            "term": "client",
+            "meaning": "委托人；客户",
+            "example": "The client arrived at ten.",
+            "translation": "委托人十点到了。"
+          },
+          {
+            "id": "lawyer-u2-w1",
+            "term": "fee",
+            "meaning": "费用；律师费",
+            "example": "Our fee is based on the hours we work.",
+            "translation": "我们的费用按工作小时计算。"
+          },
+          {
+            "id": "lawyer-u2-w2",
+            "term": "case",
+            "meaning": "案件",
+            "example": "This case may take six months.",
+            "translation": "这个案件可能需要六个月。"
+          },
+          {
+            "id": "lawyer-u2-w3",
+            "term": "witness",
+            "meaning": "证人",
+            "example": "The witness saw the accident.",
+            "translation": "证人看到了事故。"
+          },
+          {
+            "id": "lawyer-u2-w4",
+            "term": "statement",
+            "meaning": "陈述；声明",
+            "example": "Please read your statement carefully.",
+            "translation": "请仔细阅读你的陈述。"
+          },
+          {
+            "id": "lawyer-u2-w5",
+            "term": "document",
+            "meaning": "文件",
+            "example": "Bring every document you have.",
+            "translation": "把你所有的文件都带来。"
+          },
+          {
+            "id": "lawyer-u2-w6",
+            "term": "signature",
+            "meaning": "签名",
+            "example": "We need your signature on page three.",
+            "translation": "我们需要你在第三页签名。"
+          },
+          {
+            "id": "lawyer-u2-w7",
+            "term": "rights",
+            "meaning": "权利",
+            "example": "You have the right to know your rights.",
+            "translation": "你有权了解自己的权利。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "lawyer-u2-g0",
+            "title": "礼貌请求对方提供",
+            "pattern": "Could you please + 动词原形…?",
+            "explanation": "please 让请求更礼貌，后接动词原形。",
+            "example": "Could you please bring the documents?",
+            "translation": "能请您带上文件吗？",
+            "prompt": "选择礼貌的请求",
+            "options": [
+              "Could you please signing here?",
+              "Could you please sign here?",
+              "Could you please to sign here?"
+            ],
+            "answer": "Could you please sign here?"
+          },
+          {
+            "id": "lawyer-u2-g1",
+            "title": "询问过去发生的事",
+            "pattern": "When / Where did + 主语 + 动词原形?",
+            "explanation": "一般过去时的疑问句用 did，后面动词用原形。",
+            "example": "When did the accident happen?",
+            "translation": "事故是什么时候发生的？",
+            "prompt": "选择正确的问句",
+            "options": [
+              "When did you signed it?",
+              "When you did sign it?",
+              "When did you sign it?"
+            ],
+            "answer": "When did you sign it?"
+          },
+          {
+            "id": "lawyer-u2-g2",
+            "title": "说明费用",
+            "pattern": "It costs + 金额",
+            "explanation": "cost 表示花费，主语通常是事物。",
+            "example": "The first meeting costs 100 dollars.",
+            "translation": "第一次咨询收费 100 美元。",
+            "prompt": "补全：The consultation ___ 200 dollars.",
+            "options": [
+              "costs",
+              "pays",
+              "spends"
+            ],
+            "answer": "costs"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Client",
+            "english": "How much is your fee for this case?",
+            "translation": "这个案件你们收费多少？"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "The first meeting costs 100 dollars.",
+            "translation": "第一次面谈收费 100 美元。"
+          },
+          {
+            "speaker": "Client",
+            "english": "Do I need to bring any documents?",
+            "translation": "我需要带什么文件吗？"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Yes, please bring the contract and any statement from the witness.",
+            "translation": "需要，请带上合同和证人的陈述。"
+          }
+        ]
+      },
+      {
+        "id": "lawyer-u3",
+        "title": "合同条款",
+        "level": "B1",
+        "words": [
+          {
+            "id": "lawyer-u3-w0",
+            "term": "terms",
+            "meaning": "条款；条件",
+            "example": "Please read the terms before you sign.",
+            "translation": "签字前请阅读条款。"
+          },
+          {
+            "id": "lawyer-u3-w1",
+            "term": "breach",
+            "meaning": "违约；违反",
+            "example": "A late payment is a breach of contract.",
+            "translation": "逾期付款属于违约。"
+          },
+          {
+            "id": "lawyer-u3-w2",
+            "term": "party",
+            "meaning": "（合同）一方",
+            "example": "Each party must sign the agreement.",
+            "translation": "每一方都必须签署协议。"
+          },
+          {
+            "id": "lawyer-u3-w3",
+            "term": "obligation",
+            "meaning": "义务",
+            "example": "The seller has an obligation to deliver on time.",
+            "translation": "卖方有按时交货的义务。"
+          },
+          {
+            "id": "lawyer-u3-w4",
+            "term": "termination",
+            "meaning": "终止；解除",
+            "example": "The termination clause is on page five.",
+            "translation": "解除条款在第五页。"
+          },
+          {
+            "id": "lawyer-u3-w5",
+            "term": "renew",
+            "meaning": "续签；续期",
+            "example": "We want to renew the contract for one year.",
+            "translation": "我们想把合同续签一年。"
+          },
+          {
+            "id": "lawyer-u3-w6",
+            "term": "deposit",
+            "meaning": "押金；定金",
+            "example": "The deposit will be returned after the inspection.",
+            "translation": "检查后押金会退还。"
+          },
+          {
+            "id": "lawyer-u3-w7",
+            "term": "penalty",
+            "meaning": "罚金；处罚",
+            "example": "There is a penalty for late delivery.",
+            "translation": "延迟交货要交罚金。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "lawyer-u3-g0",
+            "title": "义务与禁止",
+            "pattern": "shall / shall not + 动词原形",
+            "explanation": "合同中 shall 表示“应当”，shall not 表示“不得”。",
+            "example": "The buyer shall pay within 30 days.",
+            "translation": "买方应在 30 日内付款。",
+            "prompt": "选择正确的合同表达",
+            "options": [
+              "The tenant shall not sublet the flat.",
+              "The tenant shall not sublets the flat.",
+              "The tenant not shall sublet the flat."
+            ],
+            "answer": "The tenant shall not sublet the flat."
+          },
+          {
+            "id": "lawyer-u3-g1",
+            "title": "条件条款",
+            "pattern": "In the event that + 句子",
+            "explanation": "In the event that 是正式的“如果发生……”。",
+            "example": "In the event that the goods are damaged, the seller shall replace them.",
+            "translation": "若货物损坏，卖方应予更换。",
+            "prompt": "选择正确的条件句",
+            "options": [
+              "In the event of the payment is late, …",
+              "In the event that payment is late, …",
+              "In event that payment is late, …"
+            ],
+            "answer": "In the event that payment is late, …"
+          },
+          {
+            "id": "lawyer-u3-g2",
+            "title": "截止时间",
+            "pattern": "no later than + 时间",
+            "explanation": "no later than 表示“不迟于”，比 before 更严格。",
+            "example": "Notice must be given no later than June 1.",
+            "translation": "通知须不迟于 6 月 1 日发出。",
+            "prompt": "补全：Payment is due no ___ than Friday.",
+            "options": [
+              "later",
+              "late",
+              "more"
+            ],
+            "answer": "later"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Client",
+            "english": "The other party says I am in breach of contract.",
+            "translation": "对方说我违约了。"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Which obligation do they say you failed to meet?",
+            "translation": "他们说你没有履行哪项义务？"
+          },
+          {
+            "speaker": "Client",
+            "english": "They say I paid the deposit late.",
+            "translation": "他们说我付定金晚了。"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Let me check the terms. The penalty may not apply.",
+            "translation": "我看一下条款，罚金可能不适用。"
+          }
+        ]
+      },
+      {
+        "id": "lawyer-u4",
+        "title": "法庭与诉讼",
+        "level": "B1",
+        "words": [
+          {
+            "id": "lawyer-u4-w0",
+            "term": "court",
+            "meaning": "法院；法庭",
+            "example": "The case will go to court next month.",
+            "translation": "这个案子下个月开庭。"
+          },
+          {
+            "id": "lawyer-u4-w1",
+            "term": "judge",
+            "meaning": "法官",
+            "example": "The judge asked the witness a question.",
+            "translation": "法官问了证人一个问题。"
+          },
+          {
+            "id": "lawyer-u4-w2",
+            "term": "hearing",
+            "meaning": "听证会；庭审",
+            "example": "The hearing starts at nine.",
+            "translation": "庭审九点开始。"
+          },
+          {
+            "id": "lawyer-u4-w3",
+            "term": "trial",
+            "meaning": "审判",
+            "example": "The trial lasted three days.",
+            "translation": "审判持续了三天。"
+          },
+          {
+            "id": "lawyer-u4-w4",
+            "term": "verdict",
+            "meaning": "裁决；判决",
+            "example": "The jury reached a verdict.",
+            "translation": "陪审团作出了裁决。"
+          },
+          {
+            "id": "lawyer-u4-w5",
+            "term": "appeal",
+            "meaning": "上诉",
+            "example": "We plan to appeal the decision.",
+            "translation": "我们打算对判决提起上诉。"
+          },
+          {
+            "id": "lawyer-u4-w6",
+            "term": "sue",
+            "meaning": "起诉",
+            "example": "She decided to sue the company.",
+            "translation": "她决定起诉那家公司。"
+          },
+          {
+            "id": "lawyer-u4-w7",
+            "term": "defendant",
+            "meaning": "被告",
+            "example": "The defendant did not attend the hearing.",
+            "translation": "被告没有出席庭审。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "lawyer-u4-g0",
+            "title": "被动语态描述程序",
+            "pattern": "will be + 过去分词",
+            "explanation": "将来时的被动语态表示某事将被处理。",
+            "example": "The case will be heard next week.",
+            "translation": "案件将于下周审理。",
+            "prompt": "选择正确的被动句",
+            "options": [
+              "The verdict will announce tomorrow.",
+              "The verdict will be announced tomorrow.",
+              "The verdict will be announce tomorrow."
+            ],
+            "answer": "The verdict will be announced tomorrow."
+          },
+          {
+            "id": "lawyer-u4-g1",
+            "title": "建议",
+            "pattern": "I recommend that + 主语 + 动词原形",
+            "explanation": "正式建议中 that 从句用动词原形。",
+            "example": "I recommend that you settle the case.",
+            "translation": "我建议你和解。",
+            "prompt": "选择正确的建议",
+            "options": [
+              "I recommend that she appeal.",
+              "I recommend that she appeals to.",
+              "I recommend she to appeal."
+            ],
+            "answer": "I recommend that she appeal."
+          },
+          {
+            "id": "lawyer-u4-g2",
+            "title": "解释可能性",
+            "pattern": "may / might + 动词原形",
+            "explanation": "may 和 might 表示可能，might 更不确定。",
+            "example": "The judge might delay the hearing.",
+            "translation": "法官可能会推迟庭审。",
+            "prompt": "补全：We ___ win the appeal, but it is not certain.",
+            "options": [
+              "might",
+              "must",
+              "shall"
+            ],
+            "answer": "might"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Client",
+            "english": "Will the case go to court?",
+            "translation": "这个案子会上法庭吗？"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Yes. The hearing will be held on May 3.",
+            "translation": "会的，庭审定在 5 月 3 日。"
+          },
+          {
+            "speaker": "Client",
+            "english": "What if we lose the trial?",
+            "translation": "如果我们败诉怎么办？"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Then we might appeal the verdict.",
+            "translation": "那我们可能会对判决提起上诉。"
+          }
+        ]
+      },
+      {
+        "id": "lawyer-u5",
+        "title": "租房与劳动纠纷",
+        "level": "B1",
+        "words": [
+          {
+            "id": "lawyer-u5-w0",
+            "term": "tenant",
+            "meaning": "租客",
+            "example": "The tenant reported a broken heater.",
+            "translation": "租客报告暖气坏了。"
+          },
+          {
+            "id": "lawyer-u5-w1",
+            "term": "landlord",
+            "meaning": "房东",
+            "example": "The landlord must repair the roof.",
+            "translation": "房东必须修屋顶。"
+          },
+          {
+            "id": "lawyer-u5-w2",
+            "term": "lease",
+            "meaning": "租约",
+            "example": "The lease ends in December.",
+            "translation": "租约十二月到期。"
+          },
+          {
+            "id": "lawyer-u5-w3",
+            "term": "employer",
+            "meaning": "雇主",
+            "example": "Your employer must pay you on time.",
+            "translation": "你的雇主必须按时付工资。"
+          },
+          {
+            "id": "lawyer-u5-w4",
+            "term": "employee",
+            "meaning": "员工",
+            "example": "Every employee has a written contract.",
+            "translation": "每位员工都有书面合同。"
+          },
+          {
+            "id": "lawyer-u5-w5",
+            "term": "dismissal",
+            "meaning": "解雇",
+            "example": "She believes her dismissal was unfair.",
+            "translation": "她认为自己被解雇不公平。"
+          },
+          {
+            "id": "lawyer-u5-w6",
+            "term": "compensation",
+            "meaning": "赔偿",
+            "example": "He received compensation for the injury.",
+            "translation": "他因受伤获得了赔偿。"
+          },
+          {
+            "id": "lawyer-u5-w7",
+            "term": "notice",
+            "meaning": "通知；预先通知期",
+            "example": "You must give one month's notice.",
+            "translation": "你必须提前一个月通知。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "lawyer-u5-g0",
+            "title": "权利",
+            "pattern": "have the right to + 动词原形",
+            "explanation": "表示依法享有做某事的权利。",
+            "example": "You have the right to see your file.",
+            "translation": "你有权查看你的档案。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "Tenants have the right to a safe home.",
+              "Tenants have right of a safe home.",
+              "Tenants has the right to a safe home."
+            ],
+            "answer": "Tenants have the right to a safe home."
+          },
+          {
+            "id": "lawyer-u5-g1",
+            "title": "过去进行时说明背景",
+            "pattern": "was / were + 动词-ing",
+            "explanation": "描述过去某个时刻正在发生的事。",
+            "example": "I was working when he called me.",
+            "translation": "他打电话时我正在工作。",
+            "prompt": "补全：They ___ waiting for the landlord.",
+            "options": [
+              "was",
+              "were",
+              "are be"
+            ],
+            "answer": "were"
+          },
+          {
+            "id": "lawyer-u5-g2",
+            "title": "说明要求",
+            "pattern": "be required to + 动词原形",
+            "explanation": "正式表达“被要求做”。",
+            "example": "Employers are required to give notice.",
+            "translation": "雇主必须提前通知。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "The tenant is required pay rent.",
+              "The tenant is required to pay rent.",
+              "The tenant required to pay rent."
+            ],
+            "answer": "The tenant is required to pay rent."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Client",
+            "english": "My landlord wants to keep my deposit.",
+            "translation": "我的房东想扣下我的押金。"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Did you give notice before you moved out?",
+            "translation": "你搬走前提前通知了吗？"
+          },
+          {
+            "speaker": "Client",
+            "english": "Yes, one month's notice, as the lease says.",
+            "translation": "通知了，按租约提前一个月。"
+          },
+          {
+            "speaker": "Lawyer",
+            "english": "Then you have the right to get it back.",
+            "translation": "那你有权拿回押金。"
+          }
+        ]
       }
     ]
   },
@@ -295,8 +1355,8 @@
         "id": "restaurant-w2",
         "term": "allergy",
         "meaning": "过敏",
-        "example": "Do you have any food allergies?",
-        "translation": "您有任何食物过敏吗？"
+        "example": "Do you have a food allergy?",
+        "translation": "您有食物过敏吗？"
       },
       {
         "id": "restaurant-w3",
@@ -406,6 +1466,536 @@
         "speaker": "Server",
         "english": "Thank you for telling me. I will check with the kitchen.",
         "translation": "谢谢告知。我会和厨房核对。"
+      }
+    ],
+    "units": [
+      {
+        "id": "restaurant-u2",
+        "title": "点餐服务",
+        "level": "A2",
+        "words": [
+          {
+            "id": "restaurant-u2-w0",
+            "term": "order",
+            "meaning": "点菜；订单",
+            "example": "Are you ready to order?",
+            "translation": "您准备好点菜了吗？"
+          },
+          {
+            "id": "restaurant-u2-w1",
+            "term": "starter",
+            "meaning": "前菜；开胃菜",
+            "example": "I'll have the soup as a starter.",
+            "translation": "我前菜要汤。"
+          },
+          {
+            "id": "restaurant-u2-w2",
+            "term": "main course",
+            "meaning": "主菜",
+            "example": "The main course comes with rice.",
+            "translation": "主菜配米饭。"
+          },
+          {
+            "id": "restaurant-u2-w3",
+            "term": "dessert",
+            "meaning": "甜点",
+            "example": "Would you like to see the dessert menu?",
+            "translation": "您要看看甜点菜单吗？"
+          },
+          {
+            "id": "restaurant-u2-w4",
+            "term": "side dish",
+            "meaning": "配菜",
+            "example": "You can choose one side dish.",
+            "translation": "您可以选一份配菜。"
+          },
+          {
+            "id": "restaurant-u2-w5",
+            "term": "portion",
+            "meaning": "一份（分量）",
+            "example": "The portion is big enough for two.",
+            "translation": "这一份够两个人吃。"
+          },
+          {
+            "id": "restaurant-u2-w6",
+            "term": "spicy",
+            "meaning": "辣的",
+            "example": "Is this dish spicy?",
+            "translation": "这道菜辣吗？"
+          },
+          {
+            "id": "restaurant-u2-w7",
+            "term": "vegetarian",
+            "meaning": "素食的；素食者",
+            "example": "We have three vegetarian options.",
+            "translation": "我们有三种素食选择。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "restaurant-u2-g0",
+            "title": "点餐",
+            "pattern": "I'll have + 菜名",
+            "explanation": "I'll have 是点餐最常用的表达。",
+            "example": "I'll have the chicken, please.",
+            "translation": "我要鸡肉，谢谢。",
+            "prompt": "选择自然的点餐表达",
+            "options": [
+              "I'll having the fish.",
+              "I'll have the fish, please.",
+              "I have will the fish."
+            ],
+            "answer": "I'll have the fish, please."
+          },
+          {
+            "id": "restaurant-u2-g1",
+            "title": "询问是否需要",
+            "pattern": "Would you like + 名词…?",
+            "explanation": "礼貌地询问客人想要什么。",
+            "example": "Would you like a dessert?",
+            "translation": "您要来份甜点吗？",
+            "prompt": "选择正确的服务用语",
+            "options": [
+              "Would you like some bread?",
+              "Would you like eat bread?",
+              "Would like you some bread?"
+            ],
+            "answer": "Would you like some bread?"
+          },
+          {
+            "id": "restaurant-u2-g2",
+            "title": "推荐",
+            "pattern": "I'd recommend + 名词 / 动词-ing",
+            "explanation": "recommend 后接名词或动名词，不接 to do。",
+            "example": "I'd recommend the beef.",
+            "translation": "我推荐牛肉。",
+            "prompt": "补全：I'd recommend ___ the soup.",
+            "options": [
+              "to try",
+              "trying",
+              "try to"
+            ],
+            "answer": "trying"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Waiter",
+            "english": "Good evening. Are you ready to order?",
+            "translation": "晚上好，可以点菜了吗？"
+          },
+          {
+            "speaker": "Guest",
+            "english": "Yes. Is the curry spicy?",
+            "translation": "可以。咖喱辣吗？"
+          },
+          {
+            "speaker": "Waiter",
+            "english": "A little. If you prefer mild food, I'd recommend the pasta.",
+            "translation": "有一点。如果您喜欢清淡的，我推荐意面。"
+          },
+          {
+            "speaker": "Guest",
+            "english": "OK, I'll have the pasta and a side dish of salad.",
+            "translation": "好的，我要意面和一份沙拉配菜。"
+          }
+        ]
+      },
+      {
+        "id": "restaurant-u3",
+        "title": "厨房工作",
+        "level": "A2",
+        "words": [
+          {
+            "id": "restaurant-u3-w0",
+            "term": "chef",
+            "meaning": "厨师",
+            "example": "The chef prepares the sauce every morning.",
+            "translation": "厨师每天早上准备酱汁。"
+          },
+          {
+            "id": "restaurant-u3-w1",
+            "term": "kitchen",
+            "meaning": "厨房",
+            "example": "Keep the kitchen clean.",
+            "translation": "保持厨房干净。"
+          },
+          {
+            "id": "restaurant-u3-w2",
+            "term": "prepare",
+            "meaning": "准备",
+            "example": "Please prepare the vegetables.",
+            "translation": "请把蔬菜准备好。"
+          },
+          {
+            "id": "restaurant-u3-w3",
+            "term": "fresh",
+            "meaning": "新鲜的",
+            "example": "We only use fresh fish.",
+            "translation": "我们只用新鲜的鱼。"
+          },
+          {
+            "id": "restaurant-u3-w4",
+            "term": "frozen",
+            "meaning": "冷冻的",
+            "example": "Put the frozen peas in the freezer.",
+            "translation": "把冷冻豌豆放进冰柜。"
+          },
+          {
+            "id": "restaurant-u3-w5",
+            "term": "boil",
+            "meaning": "煮；烧开",
+            "example": "Boil the water before adding the noodles.",
+            "translation": "先把水烧开再放面条。"
+          },
+          {
+            "id": "restaurant-u3-w6",
+            "term": "fry",
+            "meaning": "煎；炸",
+            "example": "Fry the onions until they are soft.",
+            "translation": "把洋葱炒到变软。"
+          },
+          {
+            "id": "restaurant-u3-w7",
+            "term": "slice",
+            "meaning": "切片",
+            "example": "Slice the bread thinly.",
+            "translation": "把面包切薄片。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "restaurant-u3-g0",
+            "title": "下指令",
+            "pattern": "动词原形开头的祈使句",
+            "explanation": "厨房里下指令直接用动词原形开头。",
+            "example": "Wash your hands first.",
+            "translation": "先洗手。",
+            "prompt": "选择正确的指令",
+            "options": [
+              "Slicing the tomatoes.",
+              "Slice the tomatoes.",
+              "You slicing the tomatoes."
+            ],
+            "answer": "Slice the tomatoes."
+          },
+          {
+            "id": "restaurant-u3-g1",
+            "title": "先后顺序",
+            "pattern": "First, … Then, … Finally, …",
+            "explanation": "用顺序词说明操作步骤。",
+            "example": "First, boil the water. Then, add salt.",
+            "translation": "先烧水，再加盐。",
+            "prompt": "选择顺序正确的说明",
+            "options": [
+              "Then boil it, first.",
+              "First, boil the rice. Then, add salt.",
+              "First boil, then the rice salt."
+            ],
+            "answer": "First, boil the rice. Then, add salt."
+          },
+          {
+            "id": "restaurant-u3-g2",
+            "title": "说明正在做",
+            "pattern": "be + 动词-ing",
+            "explanation": "现在进行时说明此刻正在做的事。",
+            "example": "The chef is frying the fish.",
+            "translation": "厨师正在煎鱼。",
+            "prompt": "补全：We ___ preparing the sauce now.",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ],
+            "answer": "are"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Chef",
+            "english": "Have you prepared the vegetables?",
+            "translation": "蔬菜准备好了吗？"
+          },
+          {
+            "speaker": "Cook",
+            "english": "Yes. I am slicing the carrots now.",
+            "translation": "好了，我正在切胡萝卜。"
+          },
+          {
+            "speaker": "Chef",
+            "english": "Good. Then fry the onions, but don't burn them.",
+            "translation": "很好，然后炒洋葱，别炒糊了。"
+          },
+          {
+            "speaker": "Cook",
+            "english": "Should I use fresh or frozen peas?",
+            "translation": "我用新鲜的还是冷冻的豌豆？"
+          }
+        ]
+      },
+      {
+        "id": "restaurant-u4",
+        "title": "结账与投诉",
+        "level": "B1",
+        "words": [
+          {
+            "id": "restaurant-u4-w0",
+            "term": "receipt",
+            "meaning": "收据；小票",
+            "example": "Could I have a receipt, please?",
+            "translation": "能给我一张小票吗？"
+          },
+          {
+            "id": "restaurant-u4-w1",
+            "term": "tip",
+            "meaning": "小费",
+            "example": "The tip is not included.",
+            "translation": "小费不包含在内。"
+          },
+          {
+            "id": "restaurant-u4-w2",
+            "term": "refund",
+            "meaning": "退款",
+            "example": "We will give you a full refund.",
+            "translation": "我们会全额退款。"
+          },
+          {
+            "id": "restaurant-u4-w3",
+            "term": "complaint",
+            "meaning": "投诉",
+            "example": "I would like to make a complaint.",
+            "translation": "我想投诉。"
+          },
+          {
+            "id": "restaurant-u4-w4",
+            "term": "change",
+            "meaning": "找零",
+            "example": "Here is your change.",
+            "translation": "这是找您的零钱。"
+          },
+          {
+            "id": "restaurant-u4-w5",
+            "term": "discount",
+            "meaning": "折扣",
+            "example": "Students get a ten percent discount.",
+            "translation": "学生打九折。"
+          },
+          {
+            "id": "restaurant-u4-w6",
+            "term": "split",
+            "meaning": "分摊（账单）",
+            "example": "Can we split the bill?",
+            "translation": "我们可以分开付吗？"
+          },
+          {
+            "id": "restaurant-u4-w7",
+            "term": "cash",
+            "meaning": "现金",
+            "example": "Do you accept cash?",
+            "translation": "你们收现金吗？"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "restaurant-u4-g0",
+            "title": "道歉并说明处理",
+            "pattern": "I'm sorry for + 名词 / 动词-ing",
+            "explanation": "sorry for 后接名词或动名词。",
+            "example": "I'm sorry for the long wait.",
+            "translation": "抱歉让您久等了。",
+            "prompt": "选择正确的道歉",
+            "options": [
+              "I'm sorry for keep you waiting.",
+              "I'm sorry for keeping you waiting.",
+              "I'm sorry to keeping you waiting."
+            ],
+            "answer": "I'm sorry for keeping you waiting."
+          },
+          {
+            "id": "restaurant-u4-g1",
+            "title": "提出解决办法",
+            "pattern": "Let me + 动词原形",
+            "explanation": "Let me 表示主动去做某事。",
+            "example": "Let me get you a new one.",
+            "translation": "我给您换一份新的。",
+            "prompt": "补全：Let me ___ the manager.",
+            "options": [
+              "call",
+              "calling",
+              "to call"
+            ],
+            "answer": "call"
+          },
+          {
+            "id": "restaurant-u4-g2",
+            "title": "委婉表达不满",
+            "pattern": "I'm afraid + 句子",
+            "explanation": "I'm afraid 让坏消息或不满听起来更委婉。",
+            "example": "I'm afraid this soup is cold.",
+            "translation": "恐怕这汤是凉的。",
+            "prompt": "选择委婉的说法",
+            "options": [
+              "I'm afraid the steak is overcooked.",
+              "I afraid the steak is overcooked.",
+              "I'm afraid of the steak overcooked."
+            ],
+            "answer": "I'm afraid the steak is overcooked."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Guest",
+            "english": "Excuse me, I'm afraid my steak is cold.",
+            "translation": "打扰一下，我的牛排恐怕是凉的。"
+          },
+          {
+            "speaker": "Waiter",
+            "english": "I'm sorry about that. Let me get you a new one.",
+            "translation": "很抱歉，我给您换一份。"
+          },
+          {
+            "speaker": "Guest",
+            "english": "Thank you. Can we split the bill later?",
+            "translation": "谢谢。待会儿我们可以分开结账吗？"
+          },
+          {
+            "speaker": "Waiter",
+            "english": "Of course. We'll also give you a discount today.",
+            "translation": "当然，今天我们还会给您打折。"
+          }
+        ]
+      },
+      {
+        "id": "restaurant-u5",
+        "title": "卫生与安全",
+        "level": "B1",
+        "words": [
+          {
+            "id": "restaurant-u5-w0",
+            "term": "hygiene",
+            "meaning": "卫生",
+            "example": "Good hygiene keeps customers safe.",
+            "translation": "良好的卫生能保障顾客安全。"
+          },
+          {
+            "id": "restaurant-u5-w1",
+            "term": "gloves",
+            "meaning": "手套",
+            "example": "Wear gloves when you handle raw meat.",
+            "translation": "处理生肉时要戴手套。"
+          },
+          {
+            "id": "restaurant-u5-w2",
+            "term": "expiry date",
+            "meaning": "保质期；到期日",
+            "example": "Check the expiry date on the milk.",
+            "translation": "检查牛奶的保质期。"
+          },
+          {
+            "id": "restaurant-u5-w3",
+            "term": "storage",
+            "meaning": "储存",
+            "example": "Raw meat needs cold storage.",
+            "translation": "生肉需要冷藏。"
+          },
+          {
+            "id": "restaurant-u5-w4",
+            "term": "label",
+            "meaning": "标签；贴标签",
+            "example": "Label every container with the date.",
+            "translation": "每个容器都要贴上日期标签。"
+          },
+          {
+            "id": "restaurant-u5-w5",
+            "term": "rinse",
+            "meaning": "冲洗",
+            "example": "Rinse the rice before cooking.",
+            "translation": "煮之前先淘米。"
+          },
+          {
+            "id": "restaurant-u5-w6",
+            "term": "spill",
+            "meaning": "洒出；溢出物",
+            "example": "Clean up the spill right away.",
+            "translation": "马上清理洒出来的东西。"
+          },
+          {
+            "id": "restaurant-u5-w7",
+            "term": "inspection",
+            "meaning": "检查",
+            "example": "The health inspection is next week.",
+            "translation": "卫生检查在下周。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "restaurant-u5-g0",
+            "title": "规定",
+            "pattern": "must / must not + 动词原形",
+            "explanation": "must 表示必须，must not 表示禁止。",
+            "example": "Staff must not smoke in the kitchen.",
+            "translation": "员工不得在厨房吸烟。",
+            "prompt": "选择正确的规定",
+            "options": [
+              "You must to wear gloves.",
+              "You must wear gloves.",
+              "You must wearing gloves."
+            ],
+            "answer": "You must wear gloves."
+          },
+          {
+            "id": "restaurant-u5-g1",
+            "title": "说明时间条件",
+            "pattern": "before / after + 动词-ing",
+            "explanation": "before 和 after 后可以直接接动名词。",
+            "example": "Wash your hands after touching raw meat.",
+            "translation": "碰生肉后要洗手。",
+            "prompt": "补全：Check the label before ___ the food.",
+            "options": [
+              "use",
+              "using",
+              "to used"
+            ],
+            "answer": "using"
+          },
+          {
+            "id": "restaurant-u5-g2",
+            "title": "被动语态说明规范",
+            "pattern": "should be + 过去分词",
+            "explanation": "说明物品应该被如何处理。",
+            "example": "Fish should be stored below 4°C.",
+            "translation": "鱼应储存在 4°C 以下。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "Containers should be labelled.",
+              "Containers should label.",
+              "Containers should be label."
+            ],
+            "answer": "Containers should be labelled."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Manager",
+            "english": "The health inspection is tomorrow. Is everything labelled?",
+            "translation": "明天卫生检查，东西都贴标签了吗？"
+          },
+          {
+            "speaker": "Cook",
+            "english": "Yes, and I checked the expiry date on everything.",
+            "translation": "都贴了，我也检查了所有东西的保质期。"
+          },
+          {
+            "speaker": "Manager",
+            "english": "Good. Remember to wear gloves with raw meat.",
+            "translation": "很好，处理生肉记得戴手套。"
+          },
+          {
+            "speaker": "Cook",
+            "english": "Sure. I'll also clean the spill near the fridge.",
+            "translation": "好的，我也会把冰箱旁边洒的东西清理掉。"
+          }
+        ]
       }
     ]
   },
@@ -542,6 +2132,536 @@
         "english": "Since this morning.",
         "translation": "从今天早上开始。"
       }
+    ],
+    "units": [
+      {
+        "id": "healthcare-u2",
+        "title": "问诊常见症状",
+        "level": "A2",
+        "words": [
+          {
+            "id": "healthcare-u2-w0",
+            "term": "pain",
+            "meaning": "疼痛",
+            "example": "Where is the pain?",
+            "translation": "哪里疼？"
+          },
+          {
+            "id": "healthcare-u2-w1",
+            "term": "cough",
+            "meaning": "咳嗽",
+            "example": "I have had a cough for a week.",
+            "translation": "我咳嗽一周了。"
+          },
+          {
+            "id": "healthcare-u2-w2",
+            "term": "fever",
+            "meaning": "发烧",
+            "example": "She has a high fever.",
+            "translation": "她发高烧。"
+          },
+          {
+            "id": "healthcare-u2-w3",
+            "term": "headache",
+            "meaning": "头痛",
+            "example": "I often get a headache in the afternoon.",
+            "translation": "我下午经常头痛。"
+          },
+          {
+            "id": "healthcare-u2-w4",
+            "term": "sore throat",
+            "meaning": "嗓子疼",
+            "example": "Warm water helps a sore throat.",
+            "translation": "温水对嗓子疼有帮助。"
+          },
+          {
+            "id": "healthcare-u2-w5",
+            "term": "nausea",
+            "meaning": "恶心",
+            "example": "The medicine may cause nausea.",
+            "translation": "这种药可能会引起恶心。"
+          },
+          {
+            "id": "healthcare-u2-w6",
+            "term": "rash",
+            "meaning": "皮疹",
+            "example": "The rash appeared yesterday.",
+            "translation": "皮疹是昨天出现的。"
+          },
+          {
+            "id": "healthcare-u2-w7",
+            "term": "swollen",
+            "meaning": "肿的",
+            "example": "My ankle is swollen.",
+            "translation": "我的脚踝肿了。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "healthcare-u2-g0",
+            "title": "描述症状",
+            "pattern": "I have + 症状",
+            "explanation": "描述疾病和症状常用 have。",
+            "example": "I have a headache.",
+            "translation": "我头痛。",
+            "prompt": "选择正确的描述",
+            "options": [
+              "I am a cough.",
+              "I have a cough.",
+              "I has a cough."
+            ],
+            "answer": "I have a cough."
+          },
+          {
+            "id": "healthcare-u2-g1",
+            "title": "询问部位",
+            "pattern": "Where does it hurt?",
+            "explanation": "hurt 表示“疼”，主语是 it 时用 does。",
+            "example": "Does it hurt when you walk?",
+            "translation": "走路时疼吗？",
+            "prompt": "选择正确的问句",
+            "options": [
+              "Where does it hurt?",
+              "Where it hurts?",
+              "Where do it hurt?"
+            ],
+            "answer": "Where does it hurt?"
+          },
+          {
+            "id": "healthcare-u2-g2",
+            "title": "描述程度",
+            "pattern": "on a scale of 1 to 10",
+            "explanation": "请病人用 1 到 10 描述疼痛程度。",
+            "example": "On a scale of 1 to 10, how bad is the pain?",
+            "translation": "用 1 到 10 分，疼痛有多严重？",
+            "prompt": "补全：On a scale ___ 1 to 10, it is a 6.",
+            "options": [
+              "in",
+              "of",
+              "at"
+            ],
+            "answer": "of"
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Nurse",
+            "english": "What seems to be the problem today?",
+            "translation": "今天哪里不舒服？"
+          },
+          {
+            "speaker": "Patient",
+            "english": "I have a sore throat and a fever.",
+            "translation": "我嗓子疼，还发烧。"
+          },
+          {
+            "speaker": "Nurse",
+            "english": "When did the fever start?",
+            "translation": "什么时候开始发烧的？"
+          },
+          {
+            "speaker": "Patient",
+            "english": "Two days ago. I also have a bad cough.",
+            "translation": "两天前。我还咳得很厉害。"
+          }
+        ]
+      },
+      {
+        "id": "healthcare-u3",
+        "title": "检查与治疗",
+        "level": "B1",
+        "words": [
+          {
+            "id": "healthcare-u3-w0",
+            "term": "blood test",
+            "meaning": "验血",
+            "example": "We need to do a blood test.",
+            "translation": "我们需要验个血。"
+          },
+          {
+            "id": "healthcare-u3-w1",
+            "term": "X-ray",
+            "meaning": "X 光检查",
+            "example": "The X-ray shows a small crack.",
+            "translation": "X 光显示有个小裂缝。"
+          },
+          {
+            "id": "healthcare-u3-w2",
+            "term": "injection",
+            "meaning": "注射；打针",
+            "example": "You will need an injection.",
+            "translation": "你需要打一针。"
+          },
+          {
+            "id": "healthcare-u3-w3",
+            "term": "dose",
+            "meaning": "剂量",
+            "example": "Take one dose every eight hours.",
+            "translation": "每八小时服用一剂。"
+          },
+          {
+            "id": "healthcare-u3-w4",
+            "term": "side effect",
+            "meaning": "副作用",
+            "example": "A common side effect is feeling sleepy.",
+            "translation": "常见副作用是犯困。"
+          },
+          {
+            "id": "healthcare-u3-w5",
+            "term": "treatment",
+            "meaning": "治疗",
+            "example": "The treatment takes two weeks.",
+            "translation": "治疗需要两周。"
+          },
+          {
+            "id": "healthcare-u3-w6",
+            "term": "diagnosis",
+            "meaning": "诊断",
+            "example": "The doctor will explain the diagnosis.",
+            "translation": "医生会解释诊断结果。"
+          },
+          {
+            "id": "healthcare-u3-w7",
+            "term": "surgery",
+            "meaning": "手术",
+            "example": "He needs surgery on his knee.",
+            "translation": "他的膝盖需要做手术。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "healthcare-u3-g0",
+            "title": "解释检查目的",
+            "pattern": "to + 动词原形（目的）",
+            "explanation": "用不定式说明做某事的目的。",
+            "example": "We need an X-ray to check the bone.",
+            "translation": "我们需要拍 X 光检查骨头。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "We'll take blood for checking your sugar.",
+              "We'll take blood to check your sugar.",
+              "We'll take blood check your sugar."
+            ],
+            "answer": "We'll take blood to check your sugar."
+          },
+          {
+            "id": "healthcare-u3-g1",
+            "title": "安抚病人",
+            "pattern": "You may feel + 形容词",
+            "explanation": "提前告诉病人可能的感受。",
+            "example": "You may feel a little pain.",
+            "translation": "你可能会感到有点疼。",
+            "prompt": "补全：You may ___ a little dizzy after the injection.",
+            "options": [
+              "feel",
+              "feeling",
+              "to feel"
+            ],
+            "answer": "feel"
+          },
+          {
+            "id": "healthcare-u3-g2",
+            "title": "给出建议",
+            "pattern": "It's best to + 动词原形",
+            "explanation": "温和地提出建议。",
+            "example": "It's best to rest for a few days.",
+            "translation": "最好休息几天。",
+            "prompt": "选择自然的建议",
+            "options": [
+              "It's best rest today.",
+              "It's best to rest today.",
+              "It's best resting today."
+            ],
+            "answer": "It's best to rest today."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Doctor",
+            "english": "The X-ray is normal, but we need a blood test.",
+            "translation": "X 光正常，但我们需要验血。"
+          },
+          {
+            "speaker": "Patient",
+            "english": "Will the treatment have any side effects?",
+            "translation": "治疗会有副作用吗？"
+          },
+          {
+            "speaker": "Doctor",
+            "english": "You may feel a little tired. It's best to rest.",
+            "translation": "你可能会有点累，最好多休息。"
+          },
+          {
+            "speaker": "Patient",
+            "english": "How long will the treatment take?",
+            "translation": "治疗需要多长时间？"
+          }
+        ]
+      },
+      {
+        "id": "healthcare-u4",
+        "title": "病房护理",
+        "level": "B1",
+        "words": [
+          {
+            "id": "healthcare-u4-w0",
+            "term": "ward",
+            "meaning": "病房",
+            "example": "The patient is in Ward 5.",
+            "translation": "病人在 5 号病房。"
+          },
+          {
+            "id": "healthcare-u4-w1",
+            "term": "nurse",
+            "meaning": "护士",
+            "example": "Press the button to call the nurse.",
+            "translation": "按这个按钮叫护士。"
+          },
+          {
+            "id": "healthcare-u4-w2",
+            "term": "patient",
+            "meaning": "病人",
+            "example": "The patient is resting now.",
+            "translation": "病人正在休息。"
+          },
+          {
+            "id": "healthcare-u4-w3",
+            "term": "discharge",
+            "meaning": "出院",
+            "example": "You can go home after discharge tomorrow.",
+            "translation": "你明天办理出院后就可以回家。"
+          },
+          {
+            "id": "healthcare-u4-w4",
+            "term": "bandage",
+            "meaning": "绷带",
+            "example": "I will change your bandage.",
+            "translation": "我来给你换绷带。"
+          },
+          {
+            "id": "healthcare-u4-w5",
+            "term": "wheelchair",
+            "meaning": "轮椅",
+            "example": "Please sit in the wheelchair.",
+            "translation": "请坐到轮椅上。"
+          },
+          {
+            "id": "healthcare-u4-w6",
+            "term": "vital signs",
+            "meaning": "生命体征",
+            "example": "I need to check your vital signs.",
+            "translation": "我需要检查你的生命体征。"
+          },
+          {
+            "id": "healthcare-u4-w7",
+            "term": "medication",
+            "meaning": "药物",
+            "example": "Take your medication after meals.",
+            "translation": "饭后服药。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "healthcare-u4-g0",
+            "title": "告知要做的事",
+            "pattern": "I'm going to + 动词原形",
+            "explanation": "护理前告诉病人接下来要做什么。",
+            "example": "I'm going to check your blood pressure.",
+            "translation": "我要给你量血压。",
+            "prompt": "选择正确的告知",
+            "options": [
+              "I'm going to change your bandage.",
+              "I'm going change your bandage.",
+              "I going to change your bandage."
+            ],
+            "answer": "I'm going to change your bandage."
+          },
+          {
+            "id": "healthcare-u4-g1",
+            "title": "询问需要",
+            "pattern": "Do you need + 名词 / to do…?",
+            "explanation": "询问病人是否需要帮助。",
+            "example": "Do you need help getting up?",
+            "translation": "你需要帮忙起身吗？",
+            "prompt": "补全：Do you need ___ more water?",
+            "options": [
+              "any",
+              "some of",
+              "many"
+            ],
+            "answer": "any"
+          },
+          {
+            "id": "healthcare-u4-g2",
+            "title": "提醒",
+            "pattern": "Remember to + 动词原形",
+            "explanation": "Remember to 提醒对方别忘了做某事。",
+            "example": "Remember to take your medication.",
+            "translation": "记得吃药。",
+            "prompt": "选择正确的提醒",
+            "options": [
+              "Remember taking your medicine tonight.",
+              "Remember to take your medicine tonight.",
+              "Remember take your medicine tonight."
+            ],
+            "answer": "Remember to take your medicine tonight."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Nurse",
+            "english": "Good morning. I'm going to check your vital signs.",
+            "translation": "早上好，我要检查一下你的生命体征。"
+          },
+          {
+            "speaker": "Patient",
+            "english": "When can I go home?",
+            "translation": "我什么时候能回家？"
+          },
+          {
+            "speaker": "Nurse",
+            "english": "The doctor says your discharge is tomorrow.",
+            "translation": "医生说你明天可以出院。"
+          },
+          {
+            "speaker": "Patient",
+            "english": "Great. Do I need to take any medication at home?",
+            "translation": "太好了。我在家需要吃药吗？"
+          }
+        ]
+      },
+      {
+        "id": "healthcare-u5",
+        "title": "药房",
+        "level": "B1",
+        "words": [
+          {
+            "id": "healthcare-u5-w0",
+            "term": "pharmacy",
+            "meaning": "药房",
+            "example": "The pharmacy is open until nine.",
+            "translation": "药房营业到九点。"
+          },
+          {
+            "id": "healthcare-u5-w1",
+            "term": "pharmacist",
+            "meaning": "药剂师",
+            "example": "Ask the pharmacist if you have questions.",
+            "translation": "有问题可以问药剂师。"
+          },
+          {
+            "id": "healthcare-u5-w2",
+            "term": "tablet",
+            "meaning": "药片",
+            "example": "Take two tablets with water.",
+            "translation": "用水服两片。"
+          },
+          {
+            "id": "healthcare-u5-w3",
+            "term": "capsule",
+            "meaning": "胶囊",
+            "example": "Swallow the capsule whole.",
+            "translation": "胶囊要整粒吞服。"
+          },
+          {
+            "id": "healthcare-u5-w4",
+            "term": "ointment",
+            "meaning": "药膏",
+            "example": "Put the ointment on the rash twice a day.",
+            "translation": "一天两次在皮疹处涂药膏。"
+          },
+          {
+            "id": "healthcare-u5-w5",
+            "term": "refill",
+            "meaning": "续配（处方药）",
+            "example": "Can I get a refill of this prescription?",
+            "translation": "这个处方能续配吗？"
+          },
+          {
+            "id": "healthcare-u5-w6",
+            "term": "instructions",
+            "meaning": "说明；用法",
+            "example": "Read the instructions on the box.",
+            "translation": "看看盒子上的说明。"
+          },
+          {
+            "id": "healthcare-u5-w7",
+            "term": "expire",
+            "meaning": "过期",
+            "example": "This medicine will expire next month.",
+            "translation": "这药下个月过期。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "healthcare-u5-g0",
+            "title": "用药频率",
+            "pattern": "次数 + a day",
+            "explanation": "用 once / twice / three times a day 说明频率。",
+            "example": "Take it three times a day.",
+            "translation": "一天服三次。",
+            "prompt": "补全：Use the ointment ___ a day.",
+            "options": [
+              "two",
+              "twice",
+              "second"
+            ],
+            "answer": "twice"
+          },
+          {
+            "id": "healthcare-u5-g1",
+            "title": "用药时间",
+            "pattern": "before / after / with + 名词",
+            "explanation": "说明服药与吃饭的关系。",
+            "example": "Take the tablet with food.",
+            "translation": "随餐服用。",
+            "prompt": "选择正确的说明",
+            "options": [
+              "Take one tablet after meals.",
+              "Take one tablet after eat.",
+              "Take one tablet meals after."
+            ],
+            "answer": "Take one tablet after meals."
+          },
+          {
+            "id": "healthcare-u5-g2",
+            "title": "提醒不要做",
+            "pattern": "Don't + 动词原形",
+            "explanation": "否定祈使句用于提醒禁止事项。",
+            "example": "Don't drink alcohol with this medicine.",
+            "translation": "服用此药时不要喝酒。",
+            "prompt": "选择正确的提醒",
+            "options": [
+              "Don't to drive after taking it.",
+              "Not drive after taking it.",
+              "Don't drive after taking it."
+            ],
+            "answer": "Don't drive after taking it."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Customer",
+            "english": "Hi, I'd like to get a refill of my prescription.",
+            "translation": "你好，我想续配我的处方药。"
+          },
+          {
+            "speaker": "Pharmacist",
+            "english": "Sure. Take one tablet twice a day after meals.",
+            "translation": "好的，每天两次，饭后各服一片。"
+          },
+          {
+            "speaker": "Customer",
+            "english": "Can I take it with other medicine?",
+            "translation": "能和其他药一起吃吗？"
+          },
+          {
+            "speaker": "Pharmacist",
+            "english": "Please read the instructions, and don't drink alcohol with it.",
+            "translation": "请阅读说明，服药期间不要喝酒。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -676,6 +2796,1201 @@
         "speaker": "You",
         "english": "That works for me. I will send an invitation.",
         "translation": "我可以。我会发一个邀请。"
+      }
+    ],
+    "units": [
+      {
+        "id": "business-u2",
+        "title": "邮件沟通",
+        "level": "A2",
+        "words": [
+          {
+            "id": "business-u2-w0",
+            "term": "reply",
+            "meaning": "回复",
+            "example": "Thanks for your quick reply.",
+            "translation": "谢谢你的快速回复。"
+          },
+          {
+            "id": "business-u2-w1",
+            "term": "forward",
+            "meaning": "转发",
+            "example": "I will forward the email to my manager.",
+            "translation": "我会把邮件转发给经理。"
+          },
+          {
+            "id": "business-u2-w2",
+            "term": "deadline",
+            "meaning": "截止日期",
+            "example": "The deadline for the report is Monday.",
+            "translation": "报告的截止日期是周一。"
+          },
+          {
+            "id": "business-u2-w3",
+            "term": "update",
+            "meaning": "最新情况；更新",
+            "example": "Here is a quick update on the project.",
+            "translation": "这是项目的最新进展。"
+          },
+          {
+            "id": "business-u2-w4",
+            "term": "request",
+            "meaning": "请求；要求",
+            "example": "I have a request about the meeting room.",
+            "translation": "关于会议室我有个请求。"
+          },
+          {
+            "id": "business-u2-w5",
+            "term": "reminder",
+            "meaning": "提醒",
+            "example": "This is a friendly reminder about Friday.",
+            "translation": "友情提醒一下周五的事。"
+          },
+          {
+            "id": "business-u2-w6",
+            "term": "regards",
+            "meaning": "问候（信末用语）",
+            "example": "Best regards, Anna",
+            "translation": "祝好，安娜"
+          },
+          {
+            "id": "business-u2-w7",
+            "term": "inbox",
+            "meaning": "收件箱",
+            "example": "My inbox is full of emails.",
+            "translation": "我的收件箱满是邮件。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "business-u2-g0",
+            "title": "邮件开头说明目的",
+            "pattern": "I'm writing to + 动词原形",
+            "explanation": "正式邮件第一句常说明写信目的。",
+            "example": "I'm writing to confirm our meeting.",
+            "translation": "写信是为了确认我们的会议。",
+            "prompt": "选择正确的开头",
+            "options": [
+              "I'm writing for ask about the price.",
+              "I'm writing to ask about the price.",
+              "I write to asking about the price."
+            ],
+            "answer": "I'm writing to ask about the price."
+          },
+          {
+            "id": "business-u2-g1",
+            "title": "附件说明",
+            "pattern": "Please find attached + 名词",
+            "explanation": "邮件中说明附件的固定表达。",
+            "example": "Please find attached the report.",
+            "translation": "附件是报告，请查收。",
+            "prompt": "补全：Please find ___ the invoice.",
+            "options": [
+              "attach",
+              "attached",
+              "attaching"
+            ],
+            "answer": "attached"
+          },
+          {
+            "id": "business-u2-g2",
+            "title": "期待回复",
+            "pattern": "I look forward to + 动词-ing",
+            "explanation": "look forward to 的 to 是介词，后接动名词。",
+            "example": "I look forward to hearing from you.",
+            "translation": "期待您的回复。",
+            "prompt": "选择正确的结尾",
+            "options": [
+              "I look forward to hear from you.",
+              "I look forward to hearing from you.",
+              "I look forward hearing from you."
+            ],
+            "answer": "I look forward to hearing from you."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Manager",
+            "english": "Did you reply to the client's email?",
+            "translation": "你回复客户的邮件了吗？"
+          },
+          {
+            "speaker": "Assistant",
+            "english": "Yes, and I forwarded it to the sales team.",
+            "translation": "回了，我也转发给了销售团队。"
+          },
+          {
+            "speaker": "Manager",
+            "english": "Good. Please send them a reminder about the deadline.",
+            "translation": "很好，请提醒他们截止日期。"
+          },
+          {
+            "speaker": "Assistant",
+            "english": "Sure. I'll send an update this afternoon.",
+            "translation": "好的，我下午发一个进度更新。"
+          }
+        ]
+      },
+      {
+        "id": "business-u3",
+        "title": "会议",
+        "level": "B1",
+        "words": [
+          {
+            "id": "business-u3-w0",
+            "term": "minutes",
+            "meaning": "会议记录",
+            "example": "Who will take the minutes?",
+            "translation": "谁来做会议记录？"
+          },
+          {
+            "id": "business-u3-w1",
+            "term": "presentation",
+            "meaning": "汇报；演示",
+            "example": "Her presentation was very clear.",
+            "translation": "她的汇报非常清楚。"
+          },
+          {
+            "id": "business-u3-w2",
+            "term": "attend",
+            "meaning": "出席；参加",
+            "example": "Ten people will attend the meeting.",
+            "translation": "有十人会参加会议。"
+          },
+          {
+            "id": "business-u3-w3",
+            "term": "postpone",
+            "meaning": "推迟",
+            "example": "We need to postpone the meeting.",
+            "translation": "我们得推迟会议。"
+          },
+          {
+            "id": "business-u3-w4",
+            "term": "discuss",
+            "meaning": "讨论",
+            "example": "Let's discuss the budget first.",
+            "translation": "我们先讨论预算。"
+          },
+          {
+            "id": "business-u3-w5",
+            "term": "decision",
+            "meaning": "决定",
+            "example": "We made a decision yesterday.",
+            "translation": "我们昨天做了决定。"
+          },
+          {
+            "id": "business-u3-w6",
+            "term": "summary",
+            "meaning": "总结",
+            "example": "Can you give us a summary?",
+            "translation": "你能给我们总结一下吗？"
+          },
+          {
+            "id": "business-u3-w7",
+            "term": "slide",
+            "meaning": "幻灯片",
+            "example": "Please go back to the last slide.",
+            "translation": "请回到上一张幻灯片。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "business-u3-g0",
+            "title": "开场",
+            "pattern": "Let's start with + 名词",
+            "explanation": "主持会议时引出第一个议题。",
+            "example": "Let's start with the sales report.",
+            "translation": "我们先从销售报告开始。",
+            "prompt": "选择正确的开场",
+            "options": [
+              "Let's start with the budget.",
+              "Let's starting with the budget.",
+              "Let's start by the budget."
+            ],
+            "answer": "Let's start with the budget."
+          },
+          {
+            "id": "business-u3-g1",
+            "title": "礼貌地插话",
+            "pattern": "Sorry to interrupt, but…",
+            "explanation": "打断别人时先礼貌致歉。",
+            "example": "Sorry to interrupt, but I have a question.",
+            "translation": "抱歉打断，我有个问题。",
+            "prompt": "补全：Sorry to ___, but can I add something?",
+            "options": [
+              "interrupt",
+              "interrupting",
+              "interrupted"
+            ],
+            "answer": "interrupt"
+          },
+          {
+            "id": "business-u3-g2",
+            "title": "表达同意与保留",
+            "pattern": "I agree, but…",
+            "explanation": "先表示同意，再提出不同看法。",
+            "example": "I agree, but the cost is high.",
+            "translation": "我同意，但成本太高。",
+            "prompt": "选择自然的表达",
+            "options": [
+              "I am agree with you.",
+              "I agree with you, but it's risky.",
+              "I agreeing with you."
+            ],
+            "answer": "I agree with you, but it's risky."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Chair",
+            "english": "Let's start with the sales update. Tom?",
+            "translation": "我们先从销售情况开始。汤姆？"
+          },
+          {
+            "speaker": "Tom",
+            "english": "Sales rose by ten percent. Here is the next slide.",
+            "translation": "销售增长了百分之十，请看下一张幻灯片。"
+          },
+          {
+            "speaker": "Lisa",
+            "english": "Sorry to interrupt, but should we postpone the launch?",
+            "translation": "抱歉打断，我们是不是该推迟发布？"
+          },
+          {
+            "speaker": "Chair",
+            "english": "Let's discuss that after the presentation.",
+            "translation": "汇报结束后我们再讨论这个。"
+          }
+        ]
+      },
+      {
+        "id": "business-u4",
+        "title": "客户与销售",
+        "level": "B1",
+        "words": [
+          {
+            "id": "business-u4-w0",
+            "term": "customer",
+            "meaning": "顾客",
+            "example": "The customer wants a faster delivery.",
+            "translation": "顾客想要更快交货。"
+          },
+          {
+            "id": "business-u4-w1",
+            "term": "quotation",
+            "meaning": "报价单",
+            "example": "We will send you a quotation today.",
+            "translation": "我们今天把报价单发给您。"
+          },
+          {
+            "id": "business-u4-w2",
+            "term": "invoice",
+            "meaning": "发票；账单",
+            "example": "The invoice is due in 30 days.",
+            "translation": "发票 30 天内付款。"
+          },
+          {
+            "id": "business-u4-w3",
+            "term": "negotiate",
+            "meaning": "谈判；协商",
+            "example": "We need to negotiate the price.",
+            "translation": "我们需要谈价格。"
+          },
+          {
+            "id": "business-u4-w4",
+            "term": "deliver",
+            "meaning": "交付；送货",
+            "example": "We can deliver the goods next week.",
+            "translation": "我们下周可以交货。"
+          },
+          {
+            "id": "business-u4-w5",
+            "term": "target",
+            "meaning": "目标；指标",
+            "example": "We reached our sales target.",
+            "translation": "我们完成了销售目标。"
+          },
+          {
+            "id": "business-u4-w6",
+            "term": "revenue",
+            "meaning": "收入；营收",
+            "example": "Revenue grew last quarter.",
+            "translation": "上季度营收增长了。"
+          },
+          {
+            "id": "business-u4-w7",
+            "term": "deal",
+            "meaning": "交易；生意",
+            "example": "We closed the deal on Friday.",
+            "translation": "我们周五谈成了这笔生意。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "business-u4-g0",
+            "title": "提出条件",
+            "pattern": "If you…, we can…",
+            "explanation": "用条件句提出交换条件。",
+            "example": "If you order 500 units, we can offer a discount.",
+            "translation": "如果您订 500 件，我们可以打折。",
+            "prompt": "选择正确的条件句",
+            "options": [
+              "If you will pay now, we can deliver today.",
+              "If you pay now, we can deliver today.",
+              "If you paid now, we can deliver today."
+            ],
+            "answer": "If you pay now, we can deliver today."
+          },
+          {
+            "id": "business-u4-g1",
+            "title": "比较",
+            "pattern": "比较级 + than",
+            "explanation": "比较两个选项时用比较级加 than。",
+            "example": "Our price is lower than theirs.",
+            "translation": "我们的价格比他们低。",
+            "prompt": "补全：This model is ___ than the old one.",
+            "options": [
+              "cheap",
+              "cheaper",
+              "cheapest"
+            ],
+            "answer": "cheaper"
+          },
+          {
+            "id": "business-u4-g2",
+            "title": "委婉拒绝",
+            "pattern": "I'm afraid we can't + 动词原形",
+            "explanation": "委婉表示做不到。",
+            "example": "I'm afraid we can't lower the price.",
+            "translation": "恐怕我们不能再降价了。",
+            "prompt": "选择委婉的拒绝",
+            "options": [
+              "I'm afraid we can't deliver by Monday.",
+              "I afraid we can't deliver by Monday.",
+              "I'm afraid we not can deliver by Monday."
+            ],
+            "answer": "I'm afraid we can't deliver by Monday."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Customer",
+            "english": "Your quotation is higher than we expected.",
+            "translation": "你们的报价比我们预期的高。"
+          },
+          {
+            "speaker": "Sales",
+            "english": "If you order more units, we can offer a better price.",
+            "translation": "如果您多订一些，我们可以给更好的价格。"
+          },
+          {
+            "speaker": "Customer",
+            "english": "Can you deliver by the end of the month?",
+            "translation": "你们能在月底前交货吗？"
+          },
+          {
+            "speaker": "Sales",
+            "english": "Yes. I'll send you the new quotation today.",
+            "translation": "可以，我今天把新的报价单发给您。"
+          }
+        ]
+      },
+      {
+        "id": "business-u5",
+        "title": "求职面试",
+        "level": "B1",
+        "words": [
+          {
+            "id": "business-u5-w0",
+            "term": "experience",
+            "meaning": "经验",
+            "example": "I have five years of experience in sales.",
+            "translation": "我有五年销售经验。"
+          },
+          {
+            "id": "business-u5-w1",
+            "term": "skill",
+            "meaning": "技能",
+            "example": "Communication is an important skill.",
+            "translation": "沟通是一项重要的技能。"
+          },
+          {
+            "id": "business-u5-w2",
+            "term": "strength",
+            "meaning": "优点；长处",
+            "example": "My biggest strength is teamwork.",
+            "translation": "我最大的优点是团队合作。"
+          },
+          {
+            "id": "business-u5-w3",
+            "term": "salary",
+            "meaning": "薪水",
+            "example": "What salary do you expect?",
+            "translation": "你期望的薪水是多少？"
+          },
+          {
+            "id": "business-u5-w4",
+            "term": "resign",
+            "meaning": "辞职",
+            "example": "She decided to resign last month.",
+            "translation": "她上个月决定辞职。"
+          },
+          {
+            "id": "business-u5-w5",
+            "term": "promotion",
+            "meaning": "升职",
+            "example": "He got a promotion this year.",
+            "translation": "他今年升职了。"
+          },
+          {
+            "id": "business-u5-w6",
+            "term": "team",
+            "meaning": "团队",
+            "example": "I enjoy working in a team.",
+            "translation": "我喜欢团队合作。"
+          },
+          {
+            "id": "business-u5-w7",
+            "term": "responsible",
+            "meaning": "负责的",
+            "example": "I was responsible for three clients.",
+            "translation": "我负责三个客户。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "business-u5-g0",
+            "title": "介绍职责",
+            "pattern": "be responsible for + 名词 / 动词-ing",
+            "explanation": "responsible for 后接名词或动名词。",
+            "example": "I was responsible for training new staff.",
+            "translation": "我负责培训新员工。",
+            "prompt": "补全：I am responsible ___ the budget.",
+            "options": [
+              "of",
+              "for",
+              "to"
+            ],
+            "answer": "for"
+          },
+          {
+            "id": "business-u5-g1",
+            "title": "说明成就",
+            "pattern": "I managed to + 动词原形",
+            "explanation": "managed to 表示经过努力成功做到。",
+            "example": "I managed to cut costs by 20%.",
+            "translation": "我成功把成本降低了 20%。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "I managed to increase sales.",
+              "I managed increasing sales.",
+              "I managed to increased sales."
+            ],
+            "answer": "I managed to increase sales."
+          },
+          {
+            "id": "business-u5-g2",
+            "title": "提问",
+            "pattern": "I'd like to know + 宾语从句",
+            "explanation": "宾语从句用陈述语序。",
+            "example": "I'd like to know when I can start.",
+            "translation": "我想知道什么时候可以入职。",
+            "prompt": "选择语序正确的问题",
+            "options": [
+              "I'd like to know what is the salary.",
+              "I'd like to know what the salary is.",
+              "I'd like know what the salary is."
+            ],
+            "answer": "I'd like to know what the salary is."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Interviewer",
+            "english": "Tell me about your experience.",
+            "translation": "说说你的工作经验。"
+          },
+          {
+            "speaker": "Candidate",
+            "english": "I worked in sales for three years. I was responsible for ten clients.",
+            "translation": "我做了三年销售，负责十个客户。"
+          },
+          {
+            "speaker": "Interviewer",
+            "english": "What is your biggest strength?",
+            "translation": "你最大的优点是什么？"
+          },
+          {
+            "speaker": "Candidate",
+            "english": "I work well in a team, and I managed to reach every target.",
+            "translation": "我擅长团队合作，每个指标都完成了。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "life",
+    "name": "日常生活",
+    "english": "EVERYDAY LIFE",
+    "subtitle": "社交、购物、出行与约定",
+    "icon": "☼",
+    "symbol": "house.fill",
+    "words": [
+      {
+        "id": "life-w0",
+        "term": "introduce",
+        "meaning": "介绍",
+        "example": "Let me introduce my friend Sam.",
+        "translation": "我来介绍一下我的朋友萨姆。"
+      },
+      {
+        "id": "life-w1",
+        "term": "nice",
+        "meaning": "好的；令人愉快的",
+        "example": "Nice to meet you.",
+        "translation": "很高兴认识你。"
+      },
+      {
+        "id": "life-w2",
+        "term": "neighbor",
+        "meaning": "邻居",
+        "example": "My neighbor has a big dog.",
+        "translation": "我的邻居有一条大狗。"
+      },
+      {
+        "id": "life-w3",
+        "term": "hobby",
+        "meaning": "爱好",
+        "example": "My hobby is cooking.",
+        "translation": "我的爱好是做饭。"
+      },
+      {
+        "id": "life-w4",
+        "term": "weekend",
+        "meaning": "周末",
+        "example": "What do you do on the weekend?",
+        "translation": "你周末做什么？"
+      },
+      {
+        "id": "life-w5",
+        "term": "friend",
+        "meaning": "朋友",
+        "example": "She is my best friend.",
+        "translation": "她是我最好的朋友。"
+      },
+      {
+        "id": "life-w6",
+        "term": "live",
+        "meaning": "居住",
+        "example": "I live near the park.",
+        "translation": "我住在公园附近。"
+      },
+      {
+        "id": "life-w7",
+        "term": "job",
+        "meaning": "工作",
+        "example": "What is your job?",
+        "translation": "你是做什么工作的？"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "life-g0",
+        "title": "介绍自己",
+        "pattern": "I'm + 名字 / I'm from + 地点",
+        "explanation": "I'm 是 I am 的缩写。",
+        "example": "I'm Lily. I'm from Shanghai.",
+        "translation": "我是莉莉，来自上海。",
+        "prompt": "选择正确的自我介绍",
+        "options": [
+          "I from China.",
+          "I'm from China.",
+          "I'm come from China."
+        ],
+        "answer": "I'm from China."
+      },
+      {
+        "id": "life-g1",
+        "title": "询问对方",
+        "pattern": "What do you do?",
+        "explanation": "询问职业的常用说法，回答用 I'm a…",
+        "example": "What do you do? I'm a teacher.",
+        "translation": "你是做什么的？我是老师。",
+        "prompt": "补全：What ___ you do?",
+        "options": [
+          "are",
+          "do",
+          "does"
+        ],
+        "answer": "do"
+      },
+      {
+        "id": "life-g2",
+        "title": "说喜好",
+        "pattern": "I like + 动词-ing",
+        "explanation": "like 后接动名词表示喜欢做某事。",
+        "example": "I like reading.",
+        "translation": "我喜欢看书。",
+        "prompt": "选择正确的句子",
+        "options": [
+          "I like swim.",
+          "I like swimming.",
+          "I liking swimming."
+        ],
+        "answer": "I like swimming."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Anna",
+        "english": "Hi, I'm Anna. I live next door.",
+        "translation": "嗨，我是安娜，住在隔壁。"
+      },
+      {
+        "speaker": "Ben",
+        "english": "Nice to meet you, Anna. I'm Ben.",
+        "translation": "很高兴认识你，安娜。我是本。"
+      },
+      {
+        "speaker": "Anna",
+        "english": "What do you like to do on the weekend?",
+        "translation": "你周末喜欢做什么？"
+      },
+      {
+        "speaker": "Ben",
+        "english": "I like cooking and playing tennis.",
+        "translation": "我喜欢做饭和打网球。"
+      }
+    ],
+    "units": [
+      {
+        "id": "life-u2",
+        "title": "购物",
+        "level": "A1",
+        "words": [
+          {
+            "id": "life-u2-w0",
+            "term": "price",
+            "meaning": "价格",
+            "example": "What is the price of this bag?",
+            "translation": "这个包多少钱？"
+          },
+          {
+            "id": "life-u2-w1",
+            "term": "cheap",
+            "meaning": "便宜的",
+            "example": "These shoes are cheap.",
+            "translation": "这双鞋很便宜。"
+          },
+          {
+            "id": "life-u2-w2",
+            "term": "expensive",
+            "meaning": "贵的",
+            "example": "The coat is too expensive.",
+            "translation": "这件外套太贵了。"
+          },
+          {
+            "id": "life-u2-w3",
+            "term": "size",
+            "meaning": "尺码",
+            "example": "Do you have this in a bigger size?",
+            "translation": "这个有大一号的吗？"
+          },
+          {
+            "id": "life-u2-w4",
+            "term": "try on",
+            "meaning": "试穿",
+            "example": "Can I try on this jacket?",
+            "translation": "我能试穿这件夹克吗？"
+          },
+          {
+            "id": "life-u2-w5",
+            "term": "cashier",
+            "meaning": "收银员；收银台",
+            "example": "Please pay at the cashier.",
+            "translation": "请在收银台付款。"
+          },
+          {
+            "id": "life-u2-w6",
+            "term": "sale",
+            "meaning": "促销；打折",
+            "example": "Everything is on sale today.",
+            "translation": "今天全场打折。"
+          },
+          {
+            "id": "life-u2-w7",
+            "term": "bag",
+            "meaning": "袋子；包",
+            "example": "Do you need a bag?",
+            "translation": "你需要袋子吗？"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "life-u2-g0",
+            "title": "问价格",
+            "pattern": "How much is / are…?",
+            "explanation": "单数用 is，复数用 are。",
+            "example": "How much are these socks?",
+            "translation": "这些袜子多少钱？",
+            "prompt": "补全：How much ___ these apples?",
+            "options": [
+              "is",
+              "are",
+              "do"
+            ],
+            "answer": "are"
+          },
+          {
+            "id": "life-u2-g1",
+            "title": "表达想要",
+            "pattern": "I'd like + 名词",
+            "explanation": "I'd like 比 I want 更礼貌。",
+            "example": "I'd like a medium, please.",
+            "translation": "我要中号的，谢谢。",
+            "prompt": "选择礼貌的说法",
+            "options": [
+              "I want that. Give me.",
+              "I'd like this one, please.",
+              "I'd liking this one."
+            ],
+            "answer": "I'd like this one, please."
+          },
+          {
+            "id": "life-u2-g2",
+            "title": "比较",
+            "pattern": "too + 形容词 / 形容词 + enough",
+            "explanation": "too 表示“太……”，enough 放在形容词后。",
+            "example": "It's too small. It isn't big enough.",
+            "translation": "太小了，不够大。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "It's not enough big.",
+              "It's not big enough.",
+              "It's big not enough."
+            ],
+            "answer": "It's not big enough."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Customer",
+            "english": "Excuse me, how much is this jacket?",
+            "translation": "打扰一下，这件夹克多少钱？"
+          },
+          {
+            "speaker": "Assistant",
+            "english": "It's 50 dollars. It's on sale today.",
+            "translation": "50 美元，今天打折。"
+          },
+          {
+            "speaker": "Customer",
+            "english": "Can I try on a bigger size?",
+            "translation": "我能试一下大一号的吗？"
+          },
+          {
+            "speaker": "Assistant",
+            "english": "Sure. The fitting room is over there.",
+            "translation": "当然，试衣间在那边。"
+          }
+        ]
+      },
+      {
+        "id": "life-u3",
+        "title": "出行问路",
+        "level": "A2",
+        "words": [
+          {
+            "id": "life-u3-w0",
+            "term": "station",
+            "meaning": "车站",
+            "example": "Where is the train station?",
+            "translation": "火车站在哪里？"
+          },
+          {
+            "id": "life-u3-w1",
+            "term": "ticket",
+            "meaning": "票",
+            "example": "I need a ticket to London.",
+            "translation": "我需要一张去伦敦的票。"
+          },
+          {
+            "id": "life-u3-w2",
+            "term": "turn left",
+            "meaning": "左转",
+            "example": "Turn left at the bank.",
+            "translation": "在银行那里左转。"
+          },
+          {
+            "id": "life-u3-w3",
+            "term": "straight",
+            "meaning": "直走地",
+            "example": "Go straight for two blocks.",
+            "translation": "直走两个街区。"
+          },
+          {
+            "id": "life-u3-w4",
+            "term": "map",
+            "meaning": "地图",
+            "example": "Can you show me on the map?",
+            "translation": "你能在地图上指给我看吗？"
+          },
+          {
+            "id": "life-u3-w5",
+            "term": "bus stop",
+            "meaning": "公交车站",
+            "example": "The bus stop is across the road.",
+            "translation": "公交车站在马路对面。"
+          },
+          {
+            "id": "life-u3-w6",
+            "term": "platform",
+            "meaning": "站台",
+            "example": "The train leaves from platform 4.",
+            "translation": "火车从 4 号站台出发。"
+          },
+          {
+            "id": "life-u3-w7",
+            "term": "traffic",
+            "meaning": "交通；车流",
+            "example": "There is a lot of traffic today.",
+            "translation": "今天车很多。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "life-u3-g0",
+            "title": "礼貌问路",
+            "pattern": "Could you tell me how to get to…?",
+            "explanation": "问路的礼貌说法，句末不用倒装。",
+            "example": "Could you tell me how to get to the museum?",
+            "translation": "能告诉我怎么去博物馆吗？",
+            "prompt": "选择正确的问路",
+            "options": [
+              "Could you tell me where is the station?",
+              "Could you tell me where the station is?",
+              "Could you tell me the station where is?"
+            ],
+            "answer": "Could you tell me where the station is?"
+          },
+          {
+            "id": "life-u3-g1",
+            "title": "方位介词",
+            "pattern": "next to / opposite / between",
+            "explanation": "用介词描述位置。",
+            "example": "The bank is next to the café.",
+            "translation": "银行在咖啡馆旁边。",
+            "prompt": "补全：The bus stop is ___ the hotel.",
+            "options": [
+              "opposite",
+              "opposite of",
+              "in opposite"
+            ],
+            "answer": "opposite"
+          },
+          {
+            "id": "life-u3-g2",
+            "title": "说明需要多久",
+            "pattern": "It takes + 时间 + to…",
+            "explanation": "表示做某事需要多长时间。",
+            "example": "It takes ten minutes to walk there.",
+            "translation": "走过去要十分钟。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "It takes 20 minutes by bus.",
+              "It take 20 minutes by bus.",
+              "It is taking 20 minutes by bus."
+            ],
+            "answer": "It takes 20 minutes by bus."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Tourist",
+            "english": "Excuse me, could you tell me how to get to the station?",
+            "translation": "打扰一下，能告诉我怎么去车站吗？"
+          },
+          {
+            "speaker": "Local",
+            "english": "Go straight and turn left at the bank.",
+            "translation": "直走，在银行那里左转。"
+          },
+          {
+            "speaker": "Tourist",
+            "english": "Is it far?",
+            "translation": "远吗？"
+          },
+          {
+            "speaker": "Local",
+            "english": "Not really. It takes about ten minutes to walk there.",
+            "translation": "不远，走过去大概十分钟。"
+          }
+        ]
+      },
+      {
+        "id": "life-u4",
+        "title": "打电话与预约",
+        "level": "A2",
+        "words": [
+          {
+            "id": "life-u4-w0",
+            "term": "call back",
+            "meaning": "回电话",
+            "example": "Can you call back later?",
+            "translation": "你能晚点再打来吗？"
+          },
+          {
+            "id": "life-u4-w1",
+            "term": "message",
+            "meaning": "留言；信息",
+            "example": "Can I leave a message?",
+            "translation": "我可以留个言吗？"
+          },
+          {
+            "id": "life-u4-w2",
+            "term": "busy",
+            "meaning": "忙的；占线的",
+            "example": "Sorry, I'm busy right now.",
+            "translation": "抱歉，我现在很忙。"
+          },
+          {
+            "id": "life-u4-w3",
+            "term": "book",
+            "meaning": "预订",
+            "example": "I'd like to book a table for two.",
+            "translation": "我想订一张两人桌。"
+          },
+          {
+            "id": "life-u4-w4",
+            "term": "cancel",
+            "meaning": "取消",
+            "example": "I need to cancel my booking.",
+            "translation": "我需要取消预订。"
+          },
+          {
+            "id": "life-u4-w5",
+            "term": "number",
+            "meaning": "号码",
+            "example": "What is your phone number?",
+            "translation": "你的电话号码是多少？"
+          },
+          {
+            "id": "life-u4-w6",
+            "term": "speak",
+            "meaning": "通话；说话",
+            "example": "Can I speak to Mr. Lee, please?",
+            "translation": "请问李先生在吗？"
+          },
+          {
+            "id": "life-u4-w7",
+            "term": "hold on",
+            "meaning": "请稍等（电话用语）",
+            "example": "Hold on, I'll get him.",
+            "translation": "请稍等，我去叫他。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "life-u4-g0",
+            "title": "电话里找人",
+            "pattern": "Can I speak to…, please?",
+            "explanation": "打电话找人的标准说法。",
+            "example": "Can I speak to the manager, please?",
+            "translation": "请问经理在吗？",
+            "prompt": "选择正确的电话用语",
+            "options": [
+              "Can I speak to Mary, please?",
+              "Can I talk Mary, please?",
+              "Can I say to Mary, please?"
+            ],
+            "answer": "Can I speak to Mary, please?"
+          },
+          {
+            "id": "life-u4-g1",
+            "title": "自报身份",
+            "pattern": "This is + 名字",
+            "explanation": "电话里用 This is 介绍自己，而不是 I am。",
+            "example": "Hi, this is Tom from ABC.",
+            "translation": "你好，我是 ABC 公司的汤姆。",
+            "prompt": "补全：Hello, ___ is Jenny.",
+            "options": [
+              "I",
+              "this",
+              "it's"
+            ],
+            "answer": "this"
+          },
+          {
+            "id": "life-u4-g2",
+            "title": "将要做的事",
+            "pattern": "I'll + 动词原形",
+            "explanation": "电话中临时答应做某事用 I'll。",
+            "example": "I'll call you back in ten minutes.",
+            "translation": "我十分钟后给你回电话。",
+            "prompt": "选择正确的回答",
+            "options": [
+              "I'll tell her you called.",
+              "I'll telling her you called.",
+              "I'm tell her you called."
+            ],
+            "answer": "I'll tell her you called."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Caller",
+            "english": "Hello, this is Mia. Can I speak to Dr. Brown, please?",
+            "translation": "你好，我是米娅。请问布朗医生在吗？"
+          },
+          {
+            "speaker": "Receptionist",
+            "english": "I'm sorry, she's busy. Can I take a message?",
+            "translation": "抱歉，她在忙。需要留言吗？"
+          },
+          {
+            "speaker": "Caller",
+            "english": "Yes. I need to cancel my appointment on Friday.",
+            "translation": "好的，我需要取消周五的预约。"
+          },
+          {
+            "speaker": "Receptionist",
+            "english": "No problem. I'll tell her, and she'll call back later.",
+            "translation": "没问题，我会转告她，她稍后回电。"
+          }
+        ]
+      },
+      {
+        "id": "life-u5",
+        "title": "天气与约朋友",
+        "level": "A2",
+        "words": [
+          {
+            "id": "life-u5-w0",
+            "term": "weather",
+            "meaning": "天气",
+            "example": "The weather is nice today.",
+            "translation": "今天天气很好。"
+          },
+          {
+            "id": "life-u5-w1",
+            "term": "forecast",
+            "meaning": "天气预报",
+            "example": "The forecast says it will rain.",
+            "translation": "天气预报说会下雨。"
+          },
+          {
+            "id": "life-u5-w2",
+            "term": "umbrella",
+            "meaning": "雨伞",
+            "example": "Don't forget your umbrella.",
+            "translation": "别忘了带伞。"
+          },
+          {
+            "id": "life-u5-w3",
+            "term": "sunny",
+            "meaning": "晴朗的",
+            "example": "It will be sunny tomorrow.",
+            "translation": "明天是晴天。"
+          },
+          {
+            "id": "life-u5-w4",
+            "term": "plan",
+            "meaning": "计划",
+            "example": "Do you have any plans for Sunday?",
+            "translation": "你周日有什么安排吗？"
+          },
+          {
+            "id": "life-u5-w5",
+            "term": "invite",
+            "meaning": "邀请",
+            "example": "I want to invite you to dinner.",
+            "translation": "我想请你吃晚饭。"
+          },
+          {
+            "id": "life-u5-w6",
+            "term": "free",
+            "meaning": "有空的",
+            "example": "Are you free on Saturday?",
+            "translation": "你周六有空吗？"
+          },
+          {
+            "id": "life-u5-w7",
+            "term": "meet",
+            "meaning": "见面",
+            "example": "Let's meet at the café at six.",
+            "translation": "我们六点在咖啡馆见。"
+          }
+        ],
+        "grammar": [
+          {
+            "id": "life-u5-g0",
+            "title": "预测天气",
+            "pattern": "It will + 动词原形 / It's going to…",
+            "explanation": "根据预报说将来的天气。",
+            "example": "It's going to rain this afternoon.",
+            "translation": "今天下午要下雨。",
+            "prompt": "选择正确的句子",
+            "options": [
+              "It will raining tomorrow.",
+              "It will rain tomorrow.",
+              "It will rains tomorrow."
+            ],
+            "answer": "It will rain tomorrow."
+          },
+          {
+            "id": "life-u5-g1",
+            "title": "发出邀请",
+            "pattern": "Would you like to + 动词原形?",
+            "explanation": "邀请别人一起做某事。",
+            "example": "Would you like to see a movie?",
+            "translation": "你想去看电影吗？",
+            "prompt": "补全：Would you like ___ dinner with us?",
+            "options": [
+              "have",
+              "to have",
+              "having"
+            ],
+            "answer": "to have"
+          },
+          {
+            "id": "life-u5-g2",
+            "title": "约定时间地点",
+            "pattern": "at + 时刻 / on + 星期 / in + 月份",
+            "explanation": "时间介词：几点用 at，星期用 on，月份用 in。",
+            "example": "See you on Friday at seven.",
+            "translation": "周五七点见。",
+            "prompt": "选择正确的约定",
+            "options": [
+              "Let's meet in Sunday at noon.",
+              "Let's meet on Sunday at noon.",
+              "Let's meet at Sunday on noon."
+            ],
+            "answer": "Let's meet on Sunday at noon."
+          }
+        ],
+        "dialogue": [
+          {
+            "speaker": "Kate",
+            "english": "Are you free on Saturday?",
+            "translation": "你周六有空吗？"
+          },
+          {
+            "speaker": "Leo",
+            "english": "Yes. Do you have any plans?",
+            "translation": "有空，你有什么安排吗？"
+          },
+          {
+            "speaker": "Kate",
+            "english": "Would you like to go hiking? The forecast says it will be sunny.",
+            "translation": "想去徒步吗？天气预报说是晴天。"
+          },
+          {
+            "speaker": "Leo",
+            "english": "Sounds great. Let's meet at the station at nine.",
+            "translation": "好主意，我们九点在车站见。"
+          }
+        ]
       }
     ]
   }

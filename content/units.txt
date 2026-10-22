@@ -1,0 +1,445 @@
+# 扩展单元源文件。运行 python scripts/build-units.py 生成 public/careers.json 与 ios/LingoGarden/careers.json。
+# 格式：
+#   # career: 身份id                         已有身份，下面的单元追加为第 2 单元起
+#   # career: 身份id | 名称 | 英文 | 副标题 | 图标 | SF Symbol   新身份，第一个单元成为基础单元
+#   ## unit: 单元id | 标题 | 等级
+#   w: 单词 | 中文意思 | 例句（须包含单词原形） | 例句翻译
+#   g: 标题 | 句型 | 讲解 | 例句 | 翻译 | 题目 | 选项1 / 选项2 / 选项3 | 正确答案
+#   d: 说话人 | 英文 | 中文
+
+# career: student
+
+## unit: student-u2 | 考试与作业 | A2
+w: quiz | 小测验 | We have a short quiz every Monday. | 我们每周一有个小测验。
+w: grade | 成绩；分数 | She got a good grade in history. | 她历史考得很好。
+w: essay | 论文；短文 | I have to finish my essay tonight. | 我今晚得写完论文。
+w: plagiarism | 抄袭 | Plagiarism can lead to a failing grade. | 抄袭可能导致不及格。
+w: extension | 延期 | Can I ask for an extension on the deadline? | 我能申请截止日期延期吗？
+w: tutor | 辅导老师 | My tutor helps me with maths. | 我的辅导老师帮我学数学。
+w: presentation | 课堂展示；演讲 | Our group presentation is on Thursday. | 我们小组周四做展示。
+w: draft | 草稿 | Please send me your first draft. | 请把你的初稿发给我。
+g: 询问能否做某事 | Can I + 动词原形…? | Can I 用来请求许可，后面接动词原形。 | Can I hand in my essay tomorrow? | 我可以明天交论文吗？ | 选择正确的请求 | Can I submitting it later? / Can I submit it later? / Can I to submit it later? | Can I submit it later?
+g: 已经完成的事 | have / has + 过去分词 | 现在完成时表示到现在为止已经完成的事。 | I have finished my draft. | 我已经写完初稿了。 | 补全：She ___ finished her essay. | have / has / is | has
+g: 必须做的事 | have to + 动词原形 | have to 表示客观上必须做的事，主语是第三人称单数时用 has to。 | He has to study for the quiz. | 他得为小测验复习。 | 选择正确的句子 | He have to study tonight. / He has to studies tonight. / He has to study tonight. | He has to study tonight.
+d: Student | Excuse me, can I ask for an extension on my essay? | 打扰一下，我的论文可以延期吗？
+d: Tutor | Why do you need more time? | 你为什么需要更多时间？
+d: Student | I was sick last week, and I have only finished the first draft. | 我上周生病了，只写完了初稿。
+d: Tutor | All right. Please send it to me by Friday. | 好的，请在周五前发给我。
+
+## unit: student-u3 | 校园生活 | A2
+w: dormitory | 宿舍 | I live in a dormitory on campus. | 我住在校内的宿舍。
+w: roommate | 室友 | My roommate is from Canada. | 我的室友来自加拿大。
+w: library | 图书馆 | The library closes at ten. | 图书馆十点关门。
+w: canteen | 食堂 | Let's have lunch in the canteen. | 我们去食堂吃午饭吧。
+w: club | 社团 | I joined the photography club. | 我加入了摄影社。
+w: timetable | 课程表 | Check your timetable for room changes. | 查看课程表看看教室有没有变。
+w: campus | 校园 | The campus is very big. | 校园很大。
+w: register | 注册；报名 | You need to register for the course online. | 你需要在网上报名这门课。
+g: 描述地点里有什么 | There is / There are… | 单数或不可数名词用 there is，复数用 there are。 | There are two canteens on campus. | 校园里有两个食堂。 | 补全：There ___ many clubs at our school. | is / are / be | are
+g: 邀请别人一起做 | Let's + 动词原形 | Let's 用来提出一起做某事的建议。 | Let's study in the library. | 我们去图书馆学习吧。 | 选择正确的建议 | Let's going to the club. / Let's go to the club. / Let's to go to the club. | Let's go to the club.
+g: 表示频率 | always / usually / sometimes + 动词 | 频率副词放在实义动词前、be 动词后。 | I usually eat in the canteen. | 我通常在食堂吃饭。 | 选择语序正确的句子 | I go usually to the library. / Usually I go the library to. / I usually go to the library. | I usually go to the library.
+d: Student A | Hi, are you my new roommate? | 嗨，你是我的新室友吗？
+d: Student B | Yes! I just moved into the dormitory today. | 是的！我今天刚搬进宿舍。
+d: Student A | Have you registered for your courses yet? | 你选好课了吗？
+d: Student B | Not yet. Let's check the timetable together. | 还没有。我们一起看看课程表吧。
+
+## unit: student-u4 | 学术写作 | B1
+w: thesis | 毕业论文；论点 | Her thesis is about online learning. | 她的论文是关于在线学习的。
+w: argument | 论点；论证 | Your argument needs more support. | 你的论点需要更多支撑。
+w: source | 资料来源 | Use at least five reliable sources. | 至少使用五个可靠的资料来源。
+w: cite | 引用（并注明出处） | Always cite the author and the year. | 一定要注明作者和年份。
+w: summary | 摘要；总结 | Write a short summary of the article. | 写一段文章的简短摘要。
+w: paragraph | 段落 | Each paragraph should have one main idea. | 每个段落应该只有一个中心思想。
+w: conclusion | 结论 | The conclusion repeats the main points. | 结论重申了要点。
+w: introduction | 引言；开头 | A good introduction gets attention. | 好的开头能吸引注意。
+g: 表达观点 | I believe / I think + 句子 | 用 I believe 引出自己的观点，比 I think 更正式。 | I believe online classes are useful. | 我认为网课很有用。 | 选择最正式的表达观点 | I believe this is true. / I want this is true. / I am believe this is true. | I believe this is true.
+g: 被动语态描述研究 | It is + 过去分词 + that… | 学术写作常用被动语态让表达更客观。 | It is known that sleep helps memory. | 众所周知，睡眠有助于记忆。 | 选择正确的学术表达 | It knows that exercise helps. / It is known that exercise helps. / It is know that exercise helps. | It is known that exercise helps.
+g: 转折 | However, … | However 表示转折，通常放在句首并加逗号。 | The method is cheap. However, it is slow. | 这种方法很便宜，但是很慢。 | 选择正确的转折句 | The data is useful, however it is old. / The data is useful. However, it is old. / The data is useful. However it, is old. | The data is useful. However, it is old.
+d: Tutor | Your argument is interesting, but your sources are weak. | 你的论点很有意思，但资料来源不够有力。
+d: Student | Should I add more recent studies? | 我应该加一些更新的研究吗？
+d: Tutor | Yes, and remember to cite every source. | 对，记得每个来源都要注明出处。
+d: Student | Got it. I will also rewrite the conclusion. | 明白了，我也会重写结论。
+
+## unit: student-u5 | 实习与升学 | B1
+w: internship | 实习 | I am applying for a summer internship. | 我在申请暑期实习。
+w: application | 申请 | The application form is online. | 申请表在网上。
+w: interview | 面试 | I have an interview on Tuesday. | 我周二有个面试。
+w: degree | 学位 | She has a degree in economics. | 她有经济学学位。
+w: major | 专业 | What is your major? | 你的专业是什么？
+w: graduate | 毕业 | I will graduate next June. | 我明年六月毕业。
+w: certificate | 证书 | You will get a certificate after the course. | 课程结束后你会拿到证书。
+w: volunteer | 志愿者；做志愿者 | I volunteer at the library on weekends. | 我周末在图书馆做志愿者。
+g: 表达将来的安排 | will + 动词原形 | will 表示将来会发生的事或临时决定。 | I will graduate next year. | 我明年毕业。 | 选择正确的句子 | I will graduating soon. / I will graduate soon. / I will to graduate soon. | I will graduate soon.
+g: 表达兴趣 | be interested in + 名词 / 动名词 | interested in 后接名词或 -ing 形式。 | I am interested in working abroad. | 我对出国工作感兴趣。 | 补全：I am interested ___ marketing. | on / at / in | in
+g: 介绍经历 | I have + 过去分词 + since / for… | 现在完成时说明从过去持续到现在的经历。 | I have volunteered here for two years. | 我在这里做志愿者两年了。 | 选择正确的经历描述 | I have studied English for five years. / I study English since five years. / I have study English for five years. | I have studied English for five years.
+d: Interviewer | Tell me about yourself. | 介绍一下你自己。
+d: Student | I am a final-year student. My major is marketing. | 我是大四学生，专业是市场营销。
+d: Interviewer | Why are you interested in this internship? | 你为什么对这份实习感兴趣？
+d: Student | I want to use what I have learned in a real company. | 我想在真正的公司里运用所学。
+
+# career: lawyer
+
+## unit: lawyer-u2 | 咨询与面谈 | A2
+w: client | 委托人；客户 | The client arrived at ten. | 委托人十点到了。
+w: fee | 费用；律师费 | Our fee is based on the hours we work. | 我们的费用按工作小时计算。
+w: case | 案件 | This case may take six months. | 这个案件可能需要六个月。
+w: witness | 证人 | The witness saw the accident. | 证人看到了事故。
+w: statement | 陈述；声明 | Please read your statement carefully. | 请仔细阅读你的陈述。
+w: document | 文件 | Bring every document you have. | 把你所有的文件都带来。
+w: signature | 签名 | We need your signature on page three. | 我们需要你在第三页签名。
+w: rights | 权利 | You have the right to know your rights. | 你有权了解自己的权利。
+g: 礼貌请求对方提供 | Could you please + 动词原形…? | please 让请求更礼貌，后接动词原形。 | Could you please bring the documents? | 能请您带上文件吗？ | 选择礼貌的请求 | Could you please signing here? / Could you please sign here? / Could you please to sign here? | Could you please sign here?
+g: 询问过去发生的事 | When / Where did + 主语 + 动词原形? | 一般过去时的疑问句用 did，后面动词用原形。 | When did the accident happen? | 事故是什么时候发生的？ | 选择正确的问句 | When did you signed it? / When you did sign it? / When did you sign it? | When did you sign it?
+g: 说明费用 | It costs + 金额 | cost 表示花费，主语通常是事物。 | The first meeting costs 100 dollars. | 第一次咨询收费 100 美元。 | 补全：The consultation ___ 200 dollars. | costs / pays / spends | costs
+d: Client | How much is your fee for this case? | 这个案件你们收费多少？
+d: Lawyer | The first meeting costs 100 dollars. | 第一次面谈收费 100 美元。
+d: Client | Do I need to bring any documents? | 我需要带什么文件吗？
+d: Lawyer | Yes, please bring the contract and any statement from the witness. | 需要，请带上合同和证人的陈述。
+
+## unit: lawyer-u3 | 合同条款 | B1
+w: terms | 条款；条件 | Please read the terms before you sign. | 签字前请阅读条款。
+w: breach | 违约；违反 | A late payment is a breach of contract. | 逾期付款属于违约。
+w: party | （合同）一方 | Each party must sign the agreement. | 每一方都必须签署协议。
+w: obligation | 义务 | The seller has an obligation to deliver on time. | 卖方有按时交货的义务。
+w: termination | 终止；解除 | The termination clause is on page five. | 解除条款在第五页。
+w: renew | 续签；续期 | We want to renew the contract for one year. | 我们想把合同续签一年。
+w: deposit | 押金；定金 | The deposit will be returned after the inspection. | 检查后押金会退还。
+w: penalty | 罚金；处罚 | There is a penalty for late delivery. | 延迟交货要交罚金。
+g: 义务与禁止 | shall / shall not + 动词原形 | 合同中 shall 表示“应当”，shall not 表示“不得”。 | The buyer shall pay within 30 days. | 买方应在 30 日内付款。 | 选择正确的合同表达 | The tenant shall not sublet the flat. / The tenant shall not sublets the flat. / The tenant not shall sublet the flat. | The tenant shall not sublet the flat.
+g: 条件条款 | In the event that + 句子 | In the event that 是正式的“如果发生……”。 | In the event that the goods are damaged, the seller shall replace them. | 若货物损坏，卖方应予更换。 | 选择正确的条件句 | In the event of the payment is late, … / In the event that payment is late, … / In event that payment is late, … | In the event that payment is late, …
+g: 截止时间 | no later than + 时间 | no later than 表示“不迟于”，比 before 更严格。 | Notice must be given no later than June 1. | 通知须不迟于 6 月 1 日发出。 | 补全：Payment is due no ___ than Friday. | later / late / more | later
+d: Client | The other party says I am in breach of contract. | 对方说我违约了。
+d: Lawyer | Which obligation do they say you failed to meet? | 他们说你没有履行哪项义务？
+d: Client | They say I paid the deposit late. | 他们说我付定金晚了。
+d: Lawyer | Let me check the terms. The penalty may not apply. | 我看一下条款，罚金可能不适用。
+
+## unit: lawyer-u4 | 法庭与诉讼 | B1
+w: court | 法院；法庭 | The case will go to court next month. | 这个案子下个月开庭。
+w: judge | 法官 | The judge asked the witness a question. | 法官问了证人一个问题。
+w: hearing | 听证会；庭审 | The hearing starts at nine. | 庭审九点开始。
+w: trial | 审判 | The trial lasted three days. | 审判持续了三天。
+w: verdict | 裁决；判决 | The jury reached a verdict. | 陪审团作出了裁决。
+w: appeal | 上诉 | We plan to appeal the decision. | 我们打算对判决提起上诉。
+w: sue | 起诉 | She decided to sue the company. | 她决定起诉那家公司。
+w: defendant | 被告 | The defendant did not attend the hearing. | 被告没有出席庭审。
+g: 被动语态描述程序 | will be + 过去分词 | 将来时的被动语态表示某事将被处理。 | The case will be heard next week. | 案件将于下周审理。 | 选择正确的被动句 | The verdict will announce tomorrow. / The verdict will be announced tomorrow. / The verdict will be announce tomorrow. | The verdict will be announced tomorrow.
+g: 建议 | I recommend that + 主语 + 动词原形 | 正式建议中 that 从句用动词原形。 | I recommend that you settle the case. | 我建议你和解。 | 选择正确的建议 | I recommend that she appeal. / I recommend that she appeals to. / I recommend she to appeal. | I recommend that she appeal.
+g: 解释可能性 | may / might + 动词原形 | may 和 might 表示可能，might 更不确定。 | The judge might delay the hearing. | 法官可能会推迟庭审。 | 补全：We ___ win the appeal, but it is not certain. | might / must / shall | might
+d: Client | Will the case go to court? | 这个案子会上法庭吗？
+d: Lawyer | Yes. The hearing will be held on May 3. | 会的，庭审定在 5 月 3 日。
+d: Client | What if we lose the trial? | 如果我们败诉怎么办？
+d: Lawyer | Then we might appeal the verdict. | 那我们可能会对判决提起上诉。
+
+## unit: lawyer-u5 | 租房与劳动纠纷 | B1
+w: tenant | 租客 | The tenant reported a broken heater. | 租客报告暖气坏了。
+w: landlord | 房东 | The landlord must repair the roof. | 房东必须修屋顶。
+w: lease | 租约 | The lease ends in December. | 租约十二月到期。
+w: employer | 雇主 | Your employer must pay you on time. | 你的雇主必须按时付工资。
+w: employee | 员工 | Every employee has a written contract. | 每位员工都有书面合同。
+w: dismissal | 解雇 | She believes her dismissal was unfair. | 她认为自己被解雇不公平。
+w: compensation | 赔偿 | He received compensation for the injury. | 他因受伤获得了赔偿。
+w: notice | 通知；预先通知期 | You must give one month's notice. | 你必须提前一个月通知。
+g: 权利 | have the right to + 动词原形 | 表示依法享有做某事的权利。 | You have the right to see your file. | 你有权查看你的档案。 | 选择正确的句子 | Tenants have the right to a safe home. / Tenants have right of a safe home. / Tenants has the right to a safe home. | Tenants have the right to a safe home.
+g: 过去进行时说明背景 | was / were + 动词-ing | 描述过去某个时刻正在发生的事。 | I was working when he called me. | 他打电话时我正在工作。 | 补全：They ___ waiting for the landlord. | was / were / are be | were
+g: 说明要求 | be required to + 动词原形 | 正式表达“被要求做”。 | Employers are required to give notice. | 雇主必须提前通知。 | 选择正确的句子 | The tenant is required pay rent. / The tenant is required to pay rent. / The tenant required to pay rent. | The tenant is required to pay rent.
+d: Client | My landlord wants to keep my deposit. | 我的房东想扣下我的押金。
+d: Lawyer | Did you give notice before you moved out? | 你搬走前提前通知了吗？
+d: Client | Yes, one month's notice, as the lease says. | 通知了，按租约提前一个月。
+d: Lawyer | Then you have the right to get it back. | 那你有权拿回押金。
+
+# career: restaurant
+
+## unit: restaurant-u2 | 点餐服务 | A2
+w: order | 点菜；订单 | Are you ready to order? | 您准备好点菜了吗？
+w: starter | 前菜；开胃菜 | I'll have the soup as a starter. | 我前菜要汤。
+w: main course | 主菜 | The main course comes with rice. | 主菜配米饭。
+w: dessert | 甜点 | Would you like to see the dessert menu? | 您要看看甜点菜单吗？
+w: side dish | 配菜 | You can choose one side dish. | 您可以选一份配菜。
+w: portion | 一份（分量） | The portion is big enough for two. | 这一份够两个人吃。
+w: spicy | 辣的 | Is this dish spicy? | 这道菜辣吗？
+w: vegetarian | 素食的；素食者 | We have three vegetarian options. | 我们有三种素食选择。
+g: 点餐 | I'll have + 菜名 | I'll have 是点餐最常用的表达。 | I'll have the chicken, please. | 我要鸡肉，谢谢。 | 选择自然的点餐表达 | I'll having the fish. / I'll have the fish, please. / I have will the fish. | I'll have the fish, please.
+g: 询问是否需要 | Would you like + 名词…? | 礼貌地询问客人想要什么。 | Would you like a dessert? | 您要来份甜点吗？ | 选择正确的服务用语 | Would you like some bread? / Would you like eat bread? / Would like you some bread? | Would you like some bread?
+g: 推荐 | I'd recommend + 名词 / 动词-ing | recommend 后接名词或动名词，不接 to do。 | I'd recommend the beef. | 我推荐牛肉。 | 补全：I'd recommend ___ the soup. | to try / trying / try to | trying
+d: Waiter | Good evening. Are you ready to order? | 晚上好，可以点菜了吗？
+d: Guest | Yes. Is the curry spicy? | 可以。咖喱辣吗？
+d: Waiter | A little. If you prefer mild food, I'd recommend the pasta. | 有一点。如果您喜欢清淡的，我推荐意面。
+d: Guest | OK, I'll have the pasta and a side dish of salad. | 好的，我要意面和一份沙拉配菜。
+
+## unit: restaurant-u3 | 厨房工作 | A2
+w: chef | 厨师 | The chef prepares the sauce every morning. | 厨师每天早上准备酱汁。
+w: kitchen | 厨房 | Keep the kitchen clean. | 保持厨房干净。
+w: prepare | 准备 | Please prepare the vegetables. | 请把蔬菜准备好。
+w: fresh | 新鲜的 | We only use fresh fish. | 我们只用新鲜的鱼。
+w: frozen | 冷冻的 | Put the frozen peas in the freezer. | 把冷冻豌豆放进冰柜。
+w: boil | 煮；烧开 | Boil the water before adding the noodles. | 先把水烧开再放面条。
+w: fry | 煎；炸 | Fry the onions until they are soft. | 把洋葱炒到变软。
+w: slice | 切片 | Slice the bread thinly. | 把面包切薄片。
+g: 下指令 | 动词原形开头的祈使句 | 厨房里下指令直接用动词原形开头。 | Wash your hands first. | 先洗手。 | 选择正确的指令 | Slicing the tomatoes. / Slice the tomatoes. / You slicing the tomatoes. | Slice the tomatoes.
+g: 先后顺序 | First, … Then, … Finally, … | 用顺序词说明操作步骤。 | First, boil the water. Then, add salt. | 先烧水，再加盐。 | 选择顺序正确的说明 | Then boil it, first. / First, boil the rice. Then, add salt. / First boil, then the rice salt. | First, boil the rice. Then, add salt.
+g: 说明正在做 | be + 动词-ing | 现在进行时说明此刻正在做的事。 | The chef is frying the fish. | 厨师正在煎鱼。 | 补全：We ___ preparing the sauce now. | is / are / am | are
+d: Chef | Have you prepared the vegetables? | 蔬菜准备好了吗？
+d: Cook | Yes. I am slicing the carrots now. | 好了，我正在切胡萝卜。
+d: Chef | Good. Then fry the onions, but don't burn them. | 很好，然后炒洋葱，别炒糊了。
+d: Cook | Should I use fresh or frozen peas? | 我用新鲜的还是冷冻的豌豆？
+
+## unit: restaurant-u4 | 结账与投诉 | B1
+w: receipt | 收据；小票 | Could I have a receipt, please? | 能给我一张小票吗？
+w: tip | 小费 | The tip is not included. | 小费不包含在内。
+w: refund | 退款 | We will give you a full refund. | 我们会全额退款。
+w: complaint | 投诉 | I would like to make a complaint. | 我想投诉。
+w: change | 找零 | Here is your change. | 这是找您的零钱。
+w: discount | 折扣 | Students get a ten percent discount. | 学生打九折。
+w: split | 分摊（账单） | Can we split the bill? | 我们可以分开付吗？
+w: cash | 现金 | Do you accept cash? | 你们收现金吗？
+g: 道歉并说明处理 | I'm sorry for + 名词 / 动词-ing | sorry for 后接名词或动名词。 | I'm sorry for the long wait. | 抱歉让您久等了。 | 选择正确的道歉 | I'm sorry for keep you waiting. / I'm sorry for keeping you waiting. / I'm sorry to keeping you waiting. | I'm sorry for keeping you waiting.
+g: 提出解决办法 | Let me + 动词原形 | Let me 表示主动去做某事。 | Let me get you a new one. | 我给您换一份新的。 | 补全：Let me ___ the manager. | call / calling / to call | call
+g: 委婉表达不满 | I'm afraid + 句子 | I'm afraid 让坏消息或不满听起来更委婉。 | I'm afraid this soup is cold. | 恐怕这汤是凉的。 | 选择委婉的说法 | I'm afraid the steak is overcooked. / I afraid the steak is overcooked. / I'm afraid of the steak overcooked. | I'm afraid the steak is overcooked.
+d: Guest | Excuse me, I'm afraid my steak is cold. | 打扰一下，我的牛排恐怕是凉的。
+d: Waiter | I'm sorry about that. Let me get you a new one. | 很抱歉，我给您换一份。
+d: Guest | Thank you. Can we split the bill later? | 谢谢。待会儿我们可以分开结账吗？
+d: Waiter | Of course. We'll also give you a discount today. | 当然，今天我们还会给您打折。
+
+## unit: restaurant-u5 | 卫生与安全 | B1
+w: hygiene | 卫生 | Good hygiene keeps customers safe. | 良好的卫生能保障顾客安全。
+w: gloves | 手套 | Wear gloves when you handle raw meat. | 处理生肉时要戴手套。
+w: expiry date | 保质期；到期日 | Check the expiry date on the milk. | 检查牛奶的保质期。
+w: storage | 储存 | Raw meat needs cold storage. | 生肉需要冷藏。
+w: label | 标签；贴标签 | Label every container with the date. | 每个容器都要贴上日期标签。
+w: rinse | 冲洗 | Rinse the rice before cooking. | 煮之前先淘米。
+w: spill | 洒出；溢出物 | Clean up the spill right away. | 马上清理洒出来的东西。
+w: inspection | 检查 | The health inspection is next week. | 卫生检查在下周。
+g: 规定 | must / must not + 动词原形 | must 表示必须，must not 表示禁止。 | Staff must not smoke in the kitchen. | 员工不得在厨房吸烟。 | 选择正确的规定 | You must to wear gloves. / You must wear gloves. / You must wearing gloves. | You must wear gloves.
+g: 说明时间条件 | before / after + 动词-ing | before 和 after 后可以直接接动名词。 | Wash your hands after touching raw meat. | 碰生肉后要洗手。 | 补全：Check the label before ___ the food. | use / using / to used | using
+g: 被动语态说明规范 | should be + 过去分词 | 说明物品应该被如何处理。 | Fish should be stored below 4°C. | 鱼应储存在 4°C 以下。 | 选择正确的句子 | Containers should be labelled. / Containers should label. / Containers should be label. | Containers should be labelled.
+d: Manager | The health inspection is tomorrow. Is everything labelled? | 明天卫生检查，东西都贴标签了吗？
+d: Cook | Yes, and I checked the expiry date on everything. | 都贴了，我也检查了所有东西的保质期。
+d: Manager | Good. Remember to wear gloves with raw meat. | 很好，处理生肉记得戴手套。
+d: Cook | Sure. I'll also clean the spill near the fridge. | 好的，我也会把冰箱旁边洒的东西清理掉。
+
+# career: healthcare
+
+## unit: healthcare-u2 | 问诊常见症状 | A2
+w: pain | 疼痛 | Where is the pain? | 哪里疼？
+w: cough | 咳嗽 | I have had a cough for a week. | 我咳嗽一周了。
+w: fever | 发烧 | She has a high fever. | 她发高烧。
+w: headache | 头痛 | I often get a headache in the afternoon. | 我下午经常头痛。
+w: sore throat | 嗓子疼 | Warm water helps a sore throat. | 温水对嗓子疼有帮助。
+w: nausea | 恶心 | The medicine may cause nausea. | 这种药可能会引起恶心。
+w: rash | 皮疹 | The rash appeared yesterday. | 皮疹是昨天出现的。
+w: swollen | 肿的 | My ankle is swollen. | 我的脚踝肿了。
+g: 描述症状 | I have + 症状 | 描述疾病和症状常用 have。 | I have a headache. | 我头痛。 | 选择正确的描述 | I am a cough. / I have a cough. / I has a cough. | I have a cough.
+g: 询问部位 | Where does it hurt? | hurt 表示“疼”，主语是 it 时用 does。 | Does it hurt when you walk? | 走路时疼吗？ | 选择正确的问句 | Where does it hurt? / Where it hurts? / Where do it hurt? | Where does it hurt?
+g: 描述程度 | on a scale of 1 to 10 | 请病人用 1 到 10 描述疼痛程度。 | On a scale of 1 to 10, how bad is the pain? | 用 1 到 10 分，疼痛有多严重？ | 补全：On a scale ___ 1 to 10, it is a 6. | in / of / at | of
+d: Nurse | What seems to be the problem today? | 今天哪里不舒服？
+d: Patient | I have a sore throat and a fever. | 我嗓子疼，还发烧。
+d: Nurse | When did the fever start? | 什么时候开始发烧的？
+d: Patient | Two days ago. I also have a bad cough. | 两天前。我还咳得很厉害。
+
+## unit: healthcare-u3 | 检查与治疗 | B1
+w: blood test | 验血 | We need to do a blood test. | 我们需要验个血。
+w: X-ray | X 光检查 | The X-ray shows a small crack. | X 光显示有个小裂缝。
+w: injection | 注射；打针 | You will need an injection. | 你需要打一针。
+w: dose | 剂量 | Take one dose every eight hours. | 每八小时服用一剂。
+w: side effect | 副作用 | A common side effect is feeling sleepy. | 常见副作用是犯困。
+w: treatment | 治疗 | The treatment takes two weeks. | 治疗需要两周。
+w: diagnosis | 诊断 | The doctor will explain the diagnosis. | 医生会解释诊断结果。
+w: surgery | 手术 | He needs surgery on his knee. | 他的膝盖需要做手术。
+g: 解释检查目的 | to + 动词原形（目的） | 用不定式说明做某事的目的。 | We need an X-ray to check the bone. | 我们需要拍 X 光检查骨头。 | 选择正确的句子 | We'll take blood for checking your sugar. / We'll take blood to check your sugar. / We'll take blood check your sugar. | We'll take blood to check your sugar.
+g: 安抚病人 | You may feel + 形容词 | 提前告诉病人可能的感受。 | You may feel a little pain. | 你可能会感到有点疼。 | 补全：You may ___ a little dizzy after the injection. | feel / feeling / to feel | feel
+g: 给出建议 | It's best to + 动词原形 | 温和地提出建议。 | It's best to rest for a few days. | 最好休息几天。 | 选择自然的建议 | It's best rest today. / It's best to rest today. / It's best resting today. | It's best to rest today.
+d: Doctor | The X-ray is normal, but we need a blood test. | X 光正常，但我们需要验血。
+d: Patient | Will the treatment have any side effects? | 治疗会有副作用吗？
+d: Doctor | You may feel a little tired. It's best to rest. | 你可能会有点累，最好多休息。
+d: Patient | How long will the treatment take? | 治疗需要多长时间？
+
+## unit: healthcare-u4 | 病房护理 | B1
+w: ward | 病房 | The patient is in Ward 5. | 病人在 5 号病房。
+w: nurse | 护士 | Press the button to call the nurse. | 按这个按钮叫护士。
+w: patient | 病人 | The patient is resting now. | 病人正在休息。
+w: discharge | 出院 | You can go home after discharge tomorrow. | 你明天办理出院后就可以回家。
+w: bandage | 绷带 | I will change your bandage. | 我来给你换绷带。
+w: wheelchair | 轮椅 | Please sit in the wheelchair. | 请坐到轮椅上。
+w: vital signs | 生命体征 | I need to check your vital signs. | 我需要检查你的生命体征。
+w: medication | 药物 | Take your medication after meals. | 饭后服药。
+g: 告知要做的事 | I'm going to + 动词原形 | 护理前告诉病人接下来要做什么。 | I'm going to check your blood pressure. | 我要给你量血压。 | 选择正确的告知 | I'm going to change your bandage. / I'm going change your bandage. / I going to change your bandage. | I'm going to change your bandage.
+g: 询问需要 | Do you need + 名词 / to do…? | 询问病人是否需要帮助。 | Do you need help getting up? | 你需要帮忙起身吗？ | 补全：Do you need ___ more water? | any / some of / many | any
+g: 提醒 | Remember to + 动词原形 | Remember to 提醒对方别忘了做某事。 | Remember to take your medication. | 记得吃药。 | 选择正确的提醒 | Remember taking your medicine tonight. / Remember to take your medicine tonight. / Remember take your medicine tonight. | Remember to take your medicine tonight.
+d: Nurse | Good morning. I'm going to check your vital signs. | 早上好，我要检查一下你的生命体征。
+d: Patient | When can I go home? | 我什么时候能回家？
+d: Nurse | The doctor says your discharge is tomorrow. | 医生说你明天可以出院。
+d: Patient | Great. Do I need to take any medication at home? | 太好了。我在家需要吃药吗？
+
+## unit: healthcare-u5 | 药房 | B1
+w: pharmacy | 药房 | The pharmacy is open until nine. | 药房营业到九点。
+w: pharmacist | 药剂师 | Ask the pharmacist if you have questions. | 有问题可以问药剂师。
+w: tablet | 药片 | Take two tablets with water. | 用水服两片。
+w: capsule | 胶囊 | Swallow the capsule whole. | 胶囊要整粒吞服。
+w: ointment | 药膏 | Put the ointment on the rash twice a day. | 一天两次在皮疹处涂药膏。
+w: refill | 续配（处方药） | Can I get a refill of this prescription? | 这个处方能续配吗？
+w: instructions | 说明；用法 | Read the instructions on the box. | 看看盒子上的说明。
+w: expire | 过期 | This medicine will expire next month. | 这药下个月过期。
+g: 用药频率 | 次数 + a day | 用 once / twice / three times a day 说明频率。 | Take it three times a day. | 一天服三次。 | 补全：Use the ointment ___ a day. | two / twice / second | twice
+g: 用药时间 | before / after / with + 名词 | 说明服药与吃饭的关系。 | Take the tablet with food. | 随餐服用。 | 选择正确的说明 | Take one tablet after meals. / Take one tablet after eat. / Take one tablet meals after. | Take one tablet after meals.
+g: 提醒不要做 | Don't + 动词原形 | 否定祈使句用于提醒禁止事项。 | Don't drink alcohol with this medicine. | 服用此药时不要喝酒。 | 选择正确的提醒 | Don't to drive after taking it. / Not drive after taking it. / Don't drive after taking it. | Don't drive after taking it.
+d: Customer | Hi, I'd like to get a refill of my prescription. | 你好，我想续配我的处方药。
+d: Pharmacist | Sure. Take one tablet twice a day after meals. | 好的，每天两次，饭后各服一片。
+d: Customer | Can I take it with other medicine? | 能和其他药一起吃吗？
+d: Pharmacist | Please read the instructions, and don't drink alcohol with it. | 请阅读说明，服药期间不要喝酒。
+
+# career: business
+
+## unit: business-u2 | 邮件沟通 | A2
+w: reply | 回复 | Thanks for your quick reply. | 谢谢你的快速回复。
+w: forward | 转发 | I will forward the email to my manager. | 我会把邮件转发给经理。
+w: deadline | 截止日期 | The deadline for the report is Monday. | 报告的截止日期是周一。
+w: update | 最新情况；更新 | Here is a quick update on the project. | 这是项目的最新进展。
+w: request | 请求；要求 | I have a request about the meeting room. | 关于会议室我有个请求。
+w: reminder | 提醒 | This is a friendly reminder about Friday. | 友情提醒一下周五的事。
+w: regards | 问候（信末用语） | Best regards, Anna | 祝好，安娜
+w: inbox | 收件箱 | My inbox is full of emails. | 我的收件箱满是邮件。
+g: 邮件开头说明目的 | I'm writing to + 动词原形 | 正式邮件第一句常说明写信目的。 | I'm writing to confirm our meeting. | 写信是为了确认我们的会议。 | 选择正确的开头 | I'm writing for ask about the price. / I'm writing to ask about the price. / I write to asking about the price. | I'm writing to ask about the price.
+g: 附件说明 | Please find attached + 名词 | 邮件中说明附件的固定表达。 | Please find attached the report. | 附件是报告，请查收。 | 补全：Please find ___ the invoice. | attach / attached / attaching | attached
+g: 期待回复 | I look forward to + 动词-ing | look forward to 的 to 是介词，后接动名词。 | I look forward to hearing from you. | 期待您的回复。 | 选择正确的结尾 | I look forward to hear from you. / I look forward to hearing from you. / I look forward hearing from you. | I look forward to hearing from you.
+d: Manager | Did you reply to the client's email? | 你回复客户的邮件了吗？
+d: Assistant | Yes, and I forwarded it to the sales team. | 回了，我也转发给了销售团队。
+d: Manager | Good. Please send them a reminder about the deadline. | 很好，请提醒他们截止日期。
+d: Assistant | Sure. I'll send an update this afternoon. | 好的，我下午发一个进度更新。
+
+## unit: business-u3 | 会议 | B1
+w: minutes | 会议记录 | Who will take the minutes? | 谁来做会议记录？
+w: presentation | 汇报；演示 | Her presentation was very clear. | 她的汇报非常清楚。
+w: attend | 出席；参加 | Ten people will attend the meeting. | 有十人会参加会议。
+w: postpone | 推迟 | We need to postpone the meeting. | 我们得推迟会议。
+w: discuss | 讨论 | Let's discuss the budget first. | 我们先讨论预算。
+w: decision | 决定 | We made a decision yesterday. | 我们昨天做了决定。
+w: summary | 总结 | Can you give us a summary? | 你能给我们总结一下吗？
+w: slide | 幻灯片 | Please go back to the last slide. | 请回到上一张幻灯片。
+g: 开场 | Let's start with + 名词 | 主持会议时引出第一个议题。 | Let's start with the sales report. | 我们先从销售报告开始。 | 选择正确的开场 | Let's start with the budget. / Let's starting with the budget. / Let's start by the budget. | Let's start with the budget.
+g: 礼貌地插话 | Sorry to interrupt, but… | 打断别人时先礼貌致歉。 | Sorry to interrupt, but I have a question. | 抱歉打断，我有个问题。 | 补全：Sorry to ___, but can I add something? | interrupt / interrupting / interrupted | interrupt
+g: 表达同意与保留 | I agree, but… | 先表示同意，再提出不同看法。 | I agree, but the cost is high. | 我同意，但成本太高。 | 选择自然的表达 | I am agree with you. / I agree with you, but it's risky. / I agreeing with you. | I agree with you, but it's risky.
+d: Chair | Let's start with the sales update. Tom? | 我们先从销售情况开始。汤姆？
+d: Tom | Sales rose by ten percent. Here is the next slide. | 销售增长了百分之十，请看下一张幻灯片。
+d: Lisa | Sorry to interrupt, but should we postpone the launch? | 抱歉打断，我们是不是该推迟发布？
+d: Chair | Let's discuss that after the presentation. | 汇报结束后我们再讨论这个。
+
+## unit: business-u4 | 客户与销售 | B1
+w: customer | 顾客 | The customer wants a faster delivery. | 顾客想要更快交货。
+w: quotation | 报价单 | We will send you a quotation today. | 我们今天把报价单发给您。
+w: invoice | 发票；账单 | The invoice is due in 30 days. | 发票 30 天内付款。
+w: negotiate | 谈判；协商 | We need to negotiate the price. | 我们需要谈价格。
+w: deliver | 交付；送货 | We can deliver the goods next week. | 我们下周可以交货。
+w: target | 目标；指标 | We reached our sales target. | 我们完成了销售目标。
+w: revenue | 收入；营收 | Revenue grew last quarter. | 上季度营收增长了。
+w: deal | 交易；生意 | We closed the deal on Friday. | 我们周五谈成了这笔生意。
+g: 提出条件 | If you…, we can… | 用条件句提出交换条件。 | If you order 500 units, we can offer a discount. | 如果您订 500 件，我们可以打折。 | 选择正确的条件句 | If you will pay now, we can deliver today. / If you pay now, we can deliver today. / If you paid now, we can deliver today. | If you pay now, we can deliver today.
+g: 比较 | 比较级 + than | 比较两个选项时用比较级加 than。 | Our price is lower than theirs. | 我们的价格比他们低。 | 补全：This model is ___ than the old one. | cheap / cheaper / cheapest | cheaper
+g: 委婉拒绝 | I'm afraid we can't + 动词原形 | 委婉表示做不到。 | I'm afraid we can't lower the price. | 恐怕我们不能再降价了。 | 选择委婉的拒绝 | I'm afraid we can't deliver by Monday. / I afraid we can't deliver by Monday. / I'm afraid we not can deliver by Monday. | I'm afraid we can't deliver by Monday.
+d: Customer | Your quotation is higher than we expected. | 你们的报价比我们预期的高。
+d: Sales | If you order more units, we can offer a better price. | 如果您多订一些，我们可以给更好的价格。
+d: Customer | Can you deliver by the end of the month? | 你们能在月底前交货吗？
+d: Sales | Yes. I'll send you the new quotation today. | 可以，我今天把新的报价单发给您。
+
+## unit: business-u5 | 求职面试 | B1
+w: experience | 经验 | I have five years of experience in sales. | 我有五年销售经验。
+w: skill | 技能 | Communication is an important skill. | 沟通是一项重要的技能。
+w: strength | 优点；长处 | My biggest strength is teamwork. | 我最大的优点是团队合作。
+w: salary | 薪水 | What salary do you expect? | 你期望的薪水是多少？
+w: resign | 辞职 | She decided to resign last month. | 她上个月决定辞职。
+w: promotion | 升职 | He got a promotion this year. | 他今年升职了。
+w: team | 团队 | I enjoy working in a team. | 我喜欢团队合作。
+w: responsible | 负责的 | I was responsible for three clients. | 我负责三个客户。
+g: 介绍职责 | be responsible for + 名词 / 动词-ing | responsible for 后接名词或动名词。 | I was responsible for training new staff. | 我负责培训新员工。 | 补全：I am responsible ___ the budget. | of / for / to | for
+g: 说明成就 | I managed to + 动词原形 | managed to 表示经过努力成功做到。 | I managed to cut costs by 20%. | 我成功把成本降低了 20%。 | 选择正确的句子 | I managed to increase sales. / I managed increasing sales. / I managed to increased sales. | I managed to increase sales.
+g: 提问 | I'd like to know + 宾语从句 | 宾语从句用陈述语序。 | I'd like to know when I can start. | 我想知道什么时候可以入职。 | 选择语序正确的问题 | I'd like to know what is the salary. / I'd like to know what the salary is. / I'd like know what the salary is. | I'd like to know what the salary is.
+d: Interviewer | Tell me about your experience. | 说说你的工作经验。
+d: Candidate | I worked in sales for three years. I was responsible for ten clients. | 我做了三年销售，负责十个客户。
+d: Interviewer | What is your biggest strength? | 你最大的优点是什么？
+d: Candidate | I work well in a team, and I managed to reach every target. | 我擅长团队合作，每个指标都完成了。
+
+# career: life | 日常生活 | EVERYDAY LIFE | 社交、购物、出行与约定 | ☼ | house.fill
+
+## unit: life | 打招呼与自我介绍 | A1
+w: introduce | 介绍 | Let me introduce my friend Sam. | 我来介绍一下我的朋友萨姆。
+w: nice | 好的；令人愉快的 | Nice to meet you. | 很高兴认识你。
+w: neighbor | 邻居 | My neighbor has a big dog. | 我的邻居有一条大狗。
+w: hobby | 爱好 | My hobby is cooking. | 我的爱好是做饭。
+w: weekend | 周末 | What do you do on the weekend? | 你周末做什么？
+w: friend | 朋友 | She is my best friend. | 她是我最好的朋友。
+w: live | 居住 | I live near the park. | 我住在公园附近。
+w: job | 工作 | What is your job? | 你是做什么工作的？
+g: 介绍自己 | I'm + 名字 / I'm from + 地点 | I'm 是 I am 的缩写。 | I'm Lily. I'm from Shanghai. | 我是莉莉，来自上海。 | 选择正确的自我介绍 | I from China. / I'm from China. / I'm come from China. | I'm from China.
+g: 询问对方 | What do you do? | 询问职业的常用说法，回答用 I'm a… | What do you do? I'm a teacher. | 你是做什么的？我是老师。 | 补全：What ___ you do? | are / do / does | do
+g: 说喜好 | I like + 动词-ing | like 后接动名词表示喜欢做某事。 | I like reading. | 我喜欢看书。 | 选择正确的句子 | I like swim. / I like swimming. / I liking swimming. | I like swimming.
+d: Anna | Hi, I'm Anna. I live next door. | 嗨，我是安娜，住在隔壁。
+d: Ben | Nice to meet you, Anna. I'm Ben. | 很高兴认识你，安娜。我是本。
+d: Anna | What do you like to do on the weekend? | 你周末喜欢做什么？
+d: Ben | I like cooking and playing tennis. | 我喜欢做饭和打网球。
+
+## unit: life-u2 | 购物 | A1
+w: price | 价格 | What is the price of this bag? | 这个包多少钱？
+w: cheap | 便宜的 | These shoes are cheap. | 这双鞋很便宜。
+w: expensive | 贵的 | The coat is too expensive. | 这件外套太贵了。
+w: size | 尺码 | Do you have this in a bigger size? | 这个有大一号的吗？
+w: try on | 试穿 | Can I try on this jacket? | 我能试穿这件夹克吗？
+w: cashier | 收银员；收银台 | Please pay at the cashier. | 请在收银台付款。
+w: sale | 促销；打折 | Everything is on sale today. | 今天全场打折。
+w: bag | 袋子；包 | Do you need a bag? | 你需要袋子吗？
+g: 问价格 | How much is / are…? | 单数用 is，复数用 are。 | How much are these socks? | 这些袜子多少钱？ | 补全：How much ___ these apples? | is / are / do | are
+g: 表达想要 | I'd like + 名词 | I'd like 比 I want 更礼貌。 | I'd like a medium, please. | 我要中号的，谢谢。 | 选择礼貌的说法 | I want that. Give me. / I'd like this one, please. / I'd liking this one. | I'd like this one, please.
+g: 比较 | too + 形容词 / 形容词 + enough | too 表示“太……”，enough 放在形容词后。 | It's too small. It isn't big enough. | 太小了，不够大。 | 选择正确的句子 | It's not enough big. / It's not big enough. / It's big not enough. | It's not big enough.
+d: Customer | Excuse me, how much is this jacket? | 打扰一下，这件夹克多少钱？
+d: Assistant | It's 50 dollars. It's on sale today. | 50 美元，今天打折。
+d: Customer | Can I try on a bigger size? | 我能试一下大一号的吗？
+d: Assistant | Sure. The fitting room is over there. | 当然，试衣间在那边。
+
+## unit: life-u3 | 出行问路 | A2
+w: station | 车站 | Where is the train station? | 火车站在哪里？
+w: ticket | 票 | I need a ticket to London. | 我需要一张去伦敦的票。
+w: turn left | 左转 | Turn left at the bank. | 在银行那里左转。
+w: straight | 直走地 | Go straight for two blocks. | 直走两个街区。
+w: map | 地图 | Can you show me on the map? | 你能在地图上指给我看吗？
+w: bus stop | 公交车站 | The bus stop is across the road. | 公交车站在马路对面。
+w: platform | 站台 | The train leaves from platform 4. | 火车从 4 号站台出发。
+w: traffic | 交通；车流 | There is a lot of traffic today. | 今天车很多。
+g: 礼貌问路 | Could you tell me how to get to…? | 问路的礼貌说法，句末不用倒装。 | Could you tell me how to get to the museum? | 能告诉我怎么去博物馆吗？ | 选择正确的问路 | Could you tell me where is the station? / Could you tell me where the station is? / Could you tell me the station where is? | Could you tell me where the station is?
+g: 方位介词 | next to / opposite / between | 用介词描述位置。 | The bank is next to the café. | 银行在咖啡馆旁边。 | 补全：The bus stop is ___ the hotel. | opposite / opposite of / in opposite | opposite
+g: 说明需要多久 | It takes + 时间 + to… | 表示做某事需要多长时间。 | It takes ten minutes to walk there. | 走过去要十分钟。 | 选择正确的句子 | It takes 20 minutes by bus. / It take 20 minutes by bus. / It is taking 20 minutes by bus. | It takes 20 minutes by bus.
+d: Tourist | Excuse me, could you tell me how to get to the station? | 打扰一下，能告诉我怎么去车站吗？
+d: Local | Go straight and turn left at the bank. | 直走，在银行那里左转。
+d: Tourist | Is it far? | 远吗？
+d: Local | Not really. It takes about ten minutes to walk there. | 不远，走过去大概十分钟。
+
+## unit: life-u4 | 打电话与预约 | A2
+w: call back | 回电话 | Can you call back later? | 你能晚点再打来吗？
+w: message | 留言；信息 | Can I leave a message? | 我可以留个言吗？
+w: busy | 忙的；占线的 | Sorry, I'm busy right now. | 抱歉，我现在很忙。
+w: book | 预订 | I'd like to book a table for two. | 我想订一张两人桌。
+w: cancel | 取消 | I need to cancel my booking. | 我需要取消预订。
+w: number | 号码 | What is your phone number? | 你的电话号码是多少？
+w: speak | 通话；说话 | Can I speak to Mr. Lee, please? | 请问李先生在吗？
+w: hold on | 请稍等（电话用语） | Hold on, I'll get him. | 请稍等，我去叫他。
+g: 电话里找人 | Can I speak to…, please? | 打电话找人的标准说法。 | Can I speak to the manager, please? | 请问经理在吗？ | 选择正确的电话用语 | Can I speak to Mary, please? / Can I talk Mary, please? / Can I say to Mary, please? | Can I speak to Mary, please?
+g: 自报身份 | This is + 名字 | 电话里用 This is 介绍自己，而不是 I am。 | Hi, this is Tom from ABC. | 你好，我是 ABC 公司的汤姆。 | 补全：Hello, ___ is Jenny. | I / this / it's | this
+g: 将要做的事 | I'll + 动词原形 | 电话中临时答应做某事用 I'll。 | I'll call you back in ten minutes. | 我十分钟后给你回电话。 | 选择正确的回答 | I'll tell her you called. / I'll telling her you called. / I'm tell her you called. | I'll tell her you called.
+d: Caller | Hello, this is Mia. Can I speak to Dr. Brown, please? | 你好，我是米娅。请问布朗医生在吗？
+d: Receptionist | I'm sorry, she's busy. Can I take a message? | 抱歉，她在忙。需要留言吗？
+d: Caller | Yes. I need to cancel my appointment on Friday. | 好的，我需要取消周五的预约。
+d: Receptionist | No problem. I'll tell her, and she'll call back later. | 没问题，我会转告她，她稍后回电。
+
+## unit: life-u5 | 天气与约朋友 | A2
+w: weather | 天气 | The weather is nice today. | 今天天气很好。
+w: forecast | 天气预报 | The forecast says it will rain. | 天气预报说会下雨。
+w: umbrella | 雨伞 | Don't forget your umbrella. | 别忘了带伞。
+w: sunny | 晴朗的 | It will be sunny tomorrow. | 明天是晴天。
+w: plan | 计划 | Do you have any plans for Sunday? | 你周日有什么安排吗？
+w: invite | 邀请 | I want to invite you to dinner. | 我想请你吃晚饭。
+w: free | 有空的 | Are you free on Saturday? | 你周六有空吗？
+w: meet | 见面 | Let's meet at the café at six. | 我们六点在咖啡馆见。
+g: 预测天气 | It will + 动词原形 / It's going to… | 根据预报说将来的天气。 | It's going to rain this afternoon. | 今天下午要下雨。 | 选择正确的句子 | It will raining tomorrow. / It will rain tomorrow. / It will rains tomorrow. | It will rain tomorrow.
+g: 发出邀请 | Would you like to + 动词原形? | 邀请别人一起做某事。 | Would you like to see a movie? | 你想去看电影吗？ | 补全：Would you like ___ dinner with us? | have / to have / having | to have
+g: 约定时间地点 | at + 时刻 / on + 星期 / in + 月份 | 时间介词：几点用 at，星期用 on，月份用 in。 | See you on Friday at seven. | 周五七点见。 | 选择正确的约定 | Let's meet in Sunday at noon. / Let's meet on Sunday at noon. / Let's meet at Sunday on noon. | Let's meet on Sunday at noon.
+d: Kate | Are you free on Saturday? | 你周六有空吗？
+d: Leo | Yes. Do you have any plans? | 有空，你有什么安排吗？
+d: Kate | Would you like to go hiking? The forecast says it will be sunny. | 想去徒步吗？天气预报说是晴天。
+d: Leo | Sounds great. Let's meet at the station at nine. | 好主意，我们九点在车站见。
