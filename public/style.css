@@ -22,3 +22,4 @@
 .advanced-ai{max-width:850px;margin-bottom:20px;padding:16px 20px}.advanced-ai summary{cursor:pointer;font-size:12px;color:#7e8c73}.advanced-ai .ai-status{margin-top:14px}
 .tutor-context{margin:6px 0 0}
 .shortcut-steps{margin:12px 0 14px;padding-left:20px;font-size:13px;line-height:1.9}.shortcut-req{margin-top:12px}.advanced-ai #copy-shortcut-name{margin-top:4px}
+.tutor-app-pick{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 4px;font-size:12px;color:#8c9981}.tutor-app-pick select{font-size:16px;padding:10px;max-width:62%}
