@@ -1,4 +1,4 @@
-const CACHE='lingo-garden-v3';
+const CACHE='lingo-garden-v4';
 // 相对路径：网站可以部署在子目录（如 GitHub Pages 的 /english-learning-app/）。
 const ASSETS=['./','index.html','style.css','app.js','core.js','careers.js','careers.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));

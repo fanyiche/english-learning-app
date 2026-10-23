@@ -16,7 +16,7 @@ export const lessons = [
  {type:'listen',prompt:'听一听，他几点起床？',english:'I get up at seven.',options:['六点','七点','八点'],answer:'七点',explain:'at seven 表示在七点。'},
  {type:'choice',prompt:'选择正确的否定句',options:['I don’t like rain.','I not like rain.','I doesn’t like rain.'],answer:'I don’t like rain.',explain:'I / you / we / they 的一般现在时否定用 don’t + 动词原形。'}]}
 ];
-export const freshState = () => ({xp:0,completed:[],mistakes:[],days:[],daily:{},goal:20,name:'学习者',level:'零基础',generated:[],reviews:{},newPerDay:10});
+export const freshState = () => ({xp:0,completed:[],mistakes:[],days:[],daily:{},goal:20,name:'学习者',level:'零基础',generated:[],reviews:{},newPerDay:10,autoSpeak:true,sfx:true,voiceURI:''});
 export function localDay(date = new Date()) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
 export function streak(days, now = new Date()) { const seen = new Set(days); const date = new Date(now); if(!seen.has(localDay(date))) date.setDate(date.getDate()-1); let n=0; while(seen.has(localDay(date))) {n++;date.setDate(date.getDate()-1);} return n; }
 // 间隔重复：答对升一级并按间隔推迟（当天已复习的词不重复升级），答错回到第一级、明天再复习。
