@@ -1,0 +1,45 @@
+name: Deploy web app to GitHub Pages
+
+on:
+  push:
+    branches: ['main']
+    paths:
+      - 'public/**'
+      - 'test/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Test and publish public/
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Node for course tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate courses and learning logic
+        run: npm test
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
