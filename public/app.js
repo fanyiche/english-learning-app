@@ -54,7 +54,7 @@ if('speechSynthesis'in window){loadVoices();speechSynthesis.addEventListener?.('
 // 增强/高级语音最自然，其次是美式英语的常见好听语音。
 const voiceScore=v=>(/(premium|enhanced|natural|neural|高级|增强)/i.test(v.name)?4:0)+(/en[-_]US/i.test(v.lang)?2:0)+(/samantha|ava|allison|aria|jenny|zoe|google us english/i.test(v.name)?1:0);
 function englishVoice(uri=state.voiceURI){return voices.find(v=>v.voiceURI===uri)||[...voices].sort((a,b)=>voiceScore(b)-voiceScore(a))[0];}
-const APP_VERSION='2026.10.23-3';
+const APP_VERSION='2026.10.23-4';
 // iOS 打开静音键时网页声音默认被静音。第一次触摸时播放一段无声音频，让系统按“媒体播放”处理，朗读和音效才能出声；
 // 同时用一句音量为 0 的朗读解锁语音合成（iOS 要求第一次朗读发生在用户点击里）。
 const SILENT='data:audio/wav;base64,UklGRkQDAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YSADAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==';
@@ -64,9 +64,12 @@ function unlockAudio(){if(audioUnlocked)return;audioUnlocked=true;try{const a=ne
 function say(text,slow=false,uri){if(!text)return;if(!('speechSynthesis'in window)){toast('当前浏览器不支持朗读，请查看听力文本');return;}unlockAudio();const synth=speechSynthesis;
  // 只在确实在读时才中断：iOS Safari 在 cancel() 后立即 speak() 有时会没有声音。
  if((synth.speaking||synth.pending)&&!unlockSpeaking)synth.cancel();synth.resume?.();
- const u=new SpeechSynthesisUtterance(text),v=englishVoice(uri);if(v)u.voice=v;u.lang=v?.lang||'en-US';u.rate=slow?.5:.85;u.volume=1;
+ // iPhone 的网页朗读经常忽略 rate，慢速改为逐词分开读（词间自然停顿）；单个词放慢并读两遍。
+ const words=String(text).match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g)||[text];
+ const parts=!slow?[text]:words.length>1?words:[text,text];
+ parts.forEach(part=>{const u=new SpeechSynthesisUtterance(part),v=englishVoice(uri);if(v)u.voice=v;u.lang=v?.lang||'en-US';u.rate=slow?.4:.9;u.volume=1;
  u.onerror=e=>{if(e.error!=='interrupted'&&e.error!=='canceled')toast('朗读未成功（'+e.error+'），请检查音量，或在「我的」里试听发音');};
- synth.speak(u);}
+ synth.speak(u);});}
 let audioCtx;
 function tone(ok){if(state.sfx===false)return;try{audioCtx=audioCtx||new (window.AudioContext||window.webkitAudioContext)();const t=audioCtx.currentTime;(ok?[660,880]:[330,247]).forEach((f,i)=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain(),at=t+i*.12;o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,at);g.gain.exponentialRampToValueAtTime(.16,at+.02);g.gain.exponentialRampToValueAtTime(.0001,at+.16);o.connect(g).connect(audioCtx.destination);o.start(at);o.stop(at+.18);});}catch{}}
 // 题目里的英文逐词可点，点哪个词读哪个词。
